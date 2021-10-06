@@ -3,7 +3,8 @@
     <navigation :color="color" :flat="flat" />
     <v-main class="pt-0">
       <home />
-      <download />
+      <about />
+      <projects />>
       <pricing />
       <contact />
     </v-main>
@@ -30,7 +31,8 @@
 import navigation from "./components/Navigation";
 import foote from "./components/Footer";
 import home from "./components/HomeSection";
-import download from "./components/DownloadSection";
+import about from "./components/AboutMe";
+import projects from "./components/Projects";
 import pricing from "./components/PricingSection";
 import contact from "./components/ContactSection";
 
@@ -41,7 +43,8 @@ export default {
     navigation,
     foote,
     home,
-    download,
+    about,
+    projects,
     pricing,
     contact,
   },

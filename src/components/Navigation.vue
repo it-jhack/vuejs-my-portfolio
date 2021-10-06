@@ -58,13 +58,13 @@
         v-if="isXs"
       />
       <div v-else>
-        <v-btn text @click="$vuetify.goTo('#hero')">
+        <v-btn text @click="$vuetify.goTo('#home')">
           <span class="mr-2">Home</span>
         </v-btn>
-        <v-btn text @click="$vuetify.goTo('#features')">
+        <v-btn text @click="$vuetify.goTo('#about')">
           <span class="mr-2">About</span>
         </v-btn>
-        <v-btn text @click="$vuetify.goTo('#download')">
+        <v-btn text @click="$vuetify.goTo('#projects')">
           <span class="mr-2">Projects</span>
         </v-btn>
         <v-btn text @click="$vuetify.goTo('#pricing')">
@@ -96,8 +96,8 @@ export default {
     isXs: false,
     items: [
       ["mdi-home-outline", "Home", "#hero"],
-      ["mdi-information-outline", "About", "#features"],
-      ["mdi-download-box-outline", "Projects", "#download"],
+      ["mdi-information-outline", "About", "#about"],
+      ["mdi-download-box-outline", "Projects", "#projects"],
       ["mdi-currency-usd", "Experience", "#pricing"],
       ["mdi-email-outline", "Contact Me", "#contact"],
     ],

@@ -1,5 +1,5 @@
 <template>
-  <section id="download">
+  <section id="about">
     <v-container fluid>
       <v-row align="center" justify="center">
         <v-col cols="10">
@@ -7,7 +7,7 @@
             <v-col sm="4" class="hidden-xs-only">
               <v-img
                 src="@/assets/img/thiago.jpg"
-                class="d-block ml-auto mr-auto"
+                class="d-block ml-auto mr-auto rounded-corners"
                 max-width="200px"
               />
             </v-col>
@@ -16,12 +16,14 @@
               <h1 class="font-weight-light">
                 My name is Thiago Amaral, I'm a Systems Analysis and Development
                 student from Brazil, although most of what I know I learned by
-                myself online.
+                myself online. Oh, and I also have an Engineering degree.
               </h1>
-              <br>
+              <br />
               <h1 class="font-weight-light">
-                I love to code and to learn programming and networking by
-                building small projects. I also have an Engineering degree.
+                I love to code and to learn by building small projects. Some of
+                my hobbies are working out, watching movies and dismantling
+                softwares and hardwares to see how they work. I rarely have been
+                gaming for the past few years but I also enjoy it :)
               </h1>
               <v-btn
                 rounded
@@ -44,7 +46,7 @@
 </template>
 
 <style scoped>
-#download {
+#about {
   background-image: url("~@/assets/img/bgDownload.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -53,11 +55,12 @@
   height: 500px;
 }
 
-#download .container,
-#download .row {
+#about .container,
+#about .row {
   height: 100%;
 }
-/* #about {
-  background-color: #f4f7f5;
-} */
+
+.rounded-corners {
+  border-radius: 20%;
+}
 </style>
