@@ -1,15 +1,16 @@
 <template>
   <section id="hero">
-    <v-parallax dark src="@/assets/img/bgHero.jpg" height="750">
+    <!-- <v-parallax dark src="@/assets/img/bgHero.jpg" height="750">
       <v-row align="center" justify="center">
         <v-col cols="10">
           <v-row align="center" justify="center">
             <v-col cols="12" md="6" xl="8">
-              <h1 class="display-2 font-weight-bold mb-4">Vuetify.js</h1>
+              <h1 class="display-2 font-weight-bold mb-4">
+                Hi, my name is Thiago
+              </h1>
               <h1 class="font-weight-light">
-                Lorem ipsum dolor sit amet consectetur <br />
-                adipisicing elit. Maiores porro voluptatibus <br />
-                delectus nam optio harum!
+                I'm an avid self-taught student who likes to crush programming
+                and networking topics on a daily basis.
               </h1>
               <v-btn
                 rounded
@@ -22,48 +23,6 @@
                 Saiba mais
                 <v-icon class="ml-2">mdi-arrow-down</v-icon>
               </v-btn>
-              <div class="video d-flex align-center py-4">
-                <a @click.stop="dialog = true" class="playBut">
-                  <svg
-                    version="1.1"
-                    xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink"
-                    xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
-                    x="0px"
-                    y="0px"
-                    width="60px"
-                    height="60px"
-                    viewBox="0 0 213.7 213.7"
-                    enable-background="new 0 0 213.7 213.7"
-                    xml:space="preserve"
-                  >
-                    <polygon
-                      class="triangle"
-                      id="XMLID_18_"
-                      fill="none"
-                      stroke-width="7"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-miterlimit="10"
-                      points="73.5,62.5 148.5,105.8 73.5,149.1 "
-                    />
-
-                    <circle
-                      class="circle"
-                      id="XMLID_17_"
-                      fill="none"
-                      stroke-width="7"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-miterlimit="10"
-                      cx="106.8"
-                      cy="106.8"
-                      r="103.3"
-                    />
-                  </svg>
-                </a>
-                <p class="subheading ml-2 mb-0">Assista o vídeo</p>
-              </div>
             </v-col>
             <v-col cols="12" md="6" xl="4" class="hidden-sm-and-down"> </v-col>
           </v-row>
@@ -72,17 +31,51 @@
       <div class="svg-border-waves text-white">
         <v-img src="@/assets/img/borderWaves.svg" />
       </div>
+    </v-parallax> -->
+    <v-parallax dark src="@/assets/img/bgHero.jpg" height="750">
+      <v-row align="center" justify="center">
+        <v-col cols="10">
+          <v-row align="center" justify="center">
+            <v-col cols="12" md="6" xl="8">
+              <h1 class="display-2 font-weight-bold mb-4">
+                Hi, my name is Thiago
+              </h1>
+              <h1 class="font-weight-light">
+                I'm an avid self-taught learner who loves to code and learn how
+                stuff works.
+              </h1>
+              <v-btn
+                rounded
+                outlined
+                large
+                dark
+                @click="$vuetify.goTo('#download')"
+                class="mt-5"
+              >
+                Tell me more
+                <v-icon class="ml-2">mdi-arrow-down</v-icon>
+              </v-btn>
+            </v-col>
+            <v-col cols="12" md="6" xl="4" class="hidden-sm-and-down"> </v-col>
+          </v-row>
+        </v-col>
+      </v-row>
+      <!-- #!DELETE
+      <div class="svg-border-waves text-white">
+        <v-img src="@/assets/img/borderWaves.svg" />
+      </div> -->
     </v-parallax>
     <v-container fluid id="features" class="mt-2">
       <v-row align="center" justify="center">
         <v-col cols="10">
           <v-row align="center" justify="space-around">
-            <!-- <v-col cols="12" class="text-center">
+            <v-col cols="12" class="text-center">
               <h1 class="font-weight-light display-2">Title</h1>
               <h1 class="font-weight-light">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
               </h1>
-            </v-col> -->
+            </v-col>
+            <!-- #!DELETE
             <v-col
               cols="12"
               sm="4"
@@ -109,7 +102,7 @@
                   </h4>
                 </v-card>
               </v-hover>
-            </v-col>
+            </v-col> -->
           </v-row>
         </v-col>
       </v-row>
@@ -161,27 +154,28 @@ export default {
       }
     },
   },
-  methods: {
-    ready(event) {
-      this.player = event.target;
-    },
-    playing(event) {
-      // The player is playing a video.
-    },
-    change() {
-      // when you change the value, the player will also change.
-      // If you would like to change `playerVars`, please change it before you change `videoId`.
-      // If `playerVars.autoplay` is 1, `loadVideoById` will be called.
-      // If `playerVars.autoplay` is 0, `cueVideoById` will be called.
-      this.videoId = "another video id";
-    },
-    stop() {
-      this.player.stopVideo();
-    },
-    pause() {
-      this.player.pauseVideo();
-    },
-  },
+  // #!DELETE
+  // methods: {
+  //   ready(event) {
+  //     this.player = event.target;
+  //   },
+  //   playing(event) {
+  //     // The player is playing a video.
+  //   },
+  //   change() {
+  //     // when you change the value, the player will also change.
+  //     // If you would like to change `playerVars`, please change it before you change `videoId`.
+  //     // If `playerVars.autoplay` is 1, `loadVideoById` will be called.
+  //     // If `playerVars.autoplay` is 0, `cueVideoById` will be called.
+  //     this.videoId = "another video id";
+  //   },
+  //   stop() {
+  //     this.player.stopVideo();
+  //   },
+  //   pause() {
+  //     this.player.pauseVideo();
+  //   },
+  // },
 };
 </script>
 
@@ -246,6 +240,7 @@ export default {
   transition: 0.2s;
 }
 
+/* #!DELETE
 .svg-border-waves .v-image {
   position: absolute;
   bottom: 0;
@@ -253,7 +248,7 @@ export default {
   height: 3rem;
   width: 100%;
   overflow: hidden;
-}
+} */
 
 #hero {
   z-index: 0;
