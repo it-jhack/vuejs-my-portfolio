@@ -50,7 +50,7 @@
                 large
                 dark
                 @click="$vuetify.goTo('#about')"
-                class="mt-5"
+                class="mt-5 small-text-shadow"
               >
                 Tell me more
                 <v-icon class="ml-2">mdi-arrow-down</v-icon>
@@ -131,6 +131,7 @@ export default {
 }
 
 .small-text-shadow {
+  color: white;
   text-shadow: 2px 2px 2px #000000;
 }
 .circle {

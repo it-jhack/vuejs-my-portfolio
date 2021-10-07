@@ -56,6 +56,10 @@
           </v-row>
         </v-col>
       </v-row>
+      <!-- #!DELETE? -->
+      <div class="svg-border-waves text-white">
+        <v-img src="@/assets/img/borderWaves.svg" />
+      </div>
     </v-container>
   </section>
 </template>
@@ -67,7 +71,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 500px;
+  height: 600px;
 }
 
 #projects .container,
@@ -81,9 +85,11 @@
 
 .green-text {
   color: #56f031;
+  text-decoration: none;
 }
 
 a:visited {
   color: #56f031;
+  text-decoration: none;
 }
 </style>

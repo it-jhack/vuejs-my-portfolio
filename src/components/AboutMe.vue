@@ -41,7 +41,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 500px;
+  /* height: 750px; */
 }
 
 #about .container,

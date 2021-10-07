@@ -82,6 +82,7 @@
 
 <style scoped>
 .small-text-shadow {
+  color: white;
   text-shadow: 2px 2px 2px #000000;
 }
 

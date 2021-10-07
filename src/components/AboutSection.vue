@@ -50,12 +50,12 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 500px;
+  /* height: 500px; */
 }
 
 #about .container,
 #about .row {
-  height: 100%;
+  /* height: 100%; */
 }
 /* #about {
   background-color: #f4f7f5;
