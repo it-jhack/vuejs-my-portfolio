@@ -1,5 +1,5 @@
 <template>
-  <section id="download">
+  <section id="about">
     <v-container fluid>
       <v-row align="center" justify="center">
         <v-col cols="10">
@@ -18,7 +18,7 @@
                 student from Brazil, although most of what I know I learned by
                 myself online.
               </h1>
-              <br>
+              <br />
               <h1 class="font-weight-light">
                 I love to code and to learn programming and networking by
                 building small projects. I also have an Engineering degree.
@@ -44,7 +44,7 @@
 </template>
 
 <style scoped>
-#download {
+#about {
   background-image: url("~@/assets/img/bgDownload.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -53,8 +53,8 @@
   height: 500px;
 }
 
-#download .container,
-#download .row {
+#about .container,
+#about .row {
   height: 100%;
 }
 /* #about {

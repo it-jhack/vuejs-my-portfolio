@@ -32,17 +32,17 @@
         <v-img src="@/assets/img/borderWaves.svg" />
       </div>
     </v-parallax> -->
-    <v-parallax dark src="@/assets/img/bgHero.jpg" height="750">
+    <v-parallax src="@/assets/img/codedesk1.jpg" height="750">
       <v-row align="center" justify="center">
         <v-col cols="10">
           <v-row align="center" justify="center">
             <v-col cols="12" md="6" xl="8">
-              <h1 class="display-2 font-weight-bold mb-4">
+              <h1 class="display-2 font-weight-bold mb-4 large-text-shadow">
                 Hi, my name is Thiago
               </h1>
-              <h1 class="font-weight-light">
-                I'm an avid self-taught programmer who loves to code and
-                learning how stuff works.
+              <h1 class="font-weight-light small-text-shadow">
+                I'm an avid self-taught programmer who loves to code and to
+                learn how stuff works.
               </h1>
               <v-btn
                 rounded
@@ -126,6 +126,13 @@ export default {
 </script>
 
 <style lang="scss">
+.large-text-shadow {
+  text-shadow: 3px 3px 3px #000000;
+}
+
+.small-text-shadow {
+  text-shadow: 2px 2px 2px #000000;
+}
 .circle {
   stroke: white;
   stroke-dasharray: 650;
@@ -196,7 +203,7 @@ export default {
   overflow: hidden;
 } */
 
-#hero {
+#home {
   z-index: 0;
 }
 .svg-border-waves img {

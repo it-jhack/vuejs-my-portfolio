@@ -7,17 +7,18 @@
       dark
       src="@/assets/img/bgDrawer.jpg"
     >
+      <!-- #!CHANGE
       <v-list>
         <v-list-item>
           <v-list-item-avatar>
             <img src="@/assets/img/logo.png" alt="Logo" />
           </v-list-item-avatar>
           <v-list-item-content>
-            <v-list-item-title class="title">Calango</v-list-item-title>
-            <v-list-item-subtitle>WEB</v-list-item-subtitle>
+            <v-list-item-title class="title">Thiago</v-list-item-title>
+            <v-list-item-subtitle>Amaral</v-list-item-subtitle>
           </v-list-item-content>
         </v-list-item>
-      </v-list>
+      </v-list> -->
 
       <v-divider />
 
@@ -32,7 +33,7 @@
             <v-icon>{{ icon }}</v-icon>
           </v-list-item-icon>
           <v-list-item-content>
-            <v-list-item-title class="subtitile-1">{{
+            <v-list-item-title class="subtitile-1 small-text-shadow">{{
               text
             }}</v-list-item-title>
           </v-list-item-content>
@@ -48,9 +49,10 @@
       class="px-15"
       :class="{ expand: flat }"
     >
+      <!-- #!CHANGE
       <v-toolbar-title>
         <v-img src="@/assets/img/logo.png" max-width="50px" />
-      </v-toolbar-title>
+      </v-toolbar-title> -->
       <v-spacer />
       <v-app-bar-nav-icon
         @click.stop="drawer = !drawer"
@@ -59,19 +61,19 @@
       />
       <div v-else>
         <v-btn text @click="$vuetify.goTo('#home')">
-          <span class="mr-2">Home</span>
+          <span class="mr-2 small-text-shadow">Home</span>
         </v-btn>
         <v-btn text @click="$vuetify.goTo('#about')">
-          <span class="mr-2">About</span>
+          <span class="mr-2 small-text-shadow">About</span>
         </v-btn>
         <v-btn text @click="$vuetify.goTo('#projects')">
-          <span class="mr-2">Projects</span>
+          <span class="mr-2 small-text-shadow">Projects</span>
         </v-btn>
         <v-btn text @click="$vuetify.goTo('#pricing')">
-          <span class="mr-2">Experience</span>
+          <span class="mr-2 small-text-shadow">Experience</span>
         </v-btn>
         <v-btn rounded outlined text @click="$vuetify.goTo('#contact')">
-          <span class="mr-2">Contact Me</span>
+          <span class="mr-2 small-text-shadow">Contact Me</span>
         </v-btn>
       </div>
     </v-app-bar>
@@ -79,6 +81,10 @@
 </template>
 
 <style scoped>
+.small-text-shadow {
+  text-shadow: 2px 2px 2px #000000;
+}
+
 .v-toolbar {
   transition: 0.6s;
 }

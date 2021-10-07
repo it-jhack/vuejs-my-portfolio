@@ -4,39 +4,54 @@
       <v-row align="center" justify="center">
         <v-col cols="10">
           <v-row align="center" justify="center">
-            <v-col sm="4" class="hidden-xs-only">
-              <v-img
-                src="@/assets/img/thiago.jpg"
-                class="d-block ml-auto mr-auto rounded-corners"
-                max-width="200px"
-              />
+            <v-col cols="12" sm="6" class="white--text text-left">
+              <h1 class="font-weight-light display-2 mb-2">
+                /git clone projects.git
+              </h1>
+              <h1 class="font-weight-light">
+                Make sure to checkout my Projects and Gists on GitHub
+                @it-jhack<br />
+                <v-btn
+                  rounded
+                  outlined
+                  href="https://github.com/it-jhack"
+                  target="_blank"
+                  large
+                  color="white"
+                  class="mt-4"
+                >
+                  <v-icon class="mr-2"> mdi-github </v-icon>
+                  Git Hub
+                </v-btn>
+                <br /><br />
+                Checkout some of my public projects: <br />
+                <a
+                  class="green-text"
+                  href="https://github.com/it-jhack/subtaker"
+                  target="_blank"
+                  >/subtaker</a
+                ><br />
+                <a
+                  class="green-text"
+                  href="https://github.com/it-jhack/subsort"
+                  target="_blank"
+                  >/subsort</a
+                ><br />
+                <a
+                  class="green-text"
+                  href="https://github.com/it-jhack/bughunter-debian-setup"
+                  target="_blank"
+                  >/bughunter-debian-setup</a
+                ><br />
+              </h1>
             </v-col>
-            <v-col cols="12" sm="8" class="white--text text-left">
-              <h1 class="font-weight-light display-2 mb-2">/git  clone  projects.git</h1>
-              <h1 class="font-weight-light">
-                My name is Thiago Amaral, I'm a Systems Analysis and Development
-                student from Brazil, although most of what I know I learned by
-                myself online. Oh, and I also have an Engineering degree.
-              </h1>
-              <br />
-              <h1 class="font-weight-light">
-                I love to code and to learn by building small projects. Some of
-                my hobbies are working out, watching movies and dismantling
-                softwares and hardwares to see how they work. I rarely have been
-                gaming for the past few years but I also enjoy it :)
-              </h1>
-              <v-btn
-                rounded
-                outlined
-                href="https://github.com/Joabsonlg/Landing-Page"
-                target="_blank"
-                large
-                color="white"
-                class="mt-4"
-              >
-                <v-icon class="mr-2"> mdi-github </v-icon>
-                Git Hub
-              </v-btn>
+
+            <v-col sm="6" class="hidden-xs-only">
+              <v-img
+                src="@/assets/img/subtaker.png"
+                contain="true"
+                position="top center"
+              />
             </v-col>
           </v-row>
         </v-col>
@@ -62,5 +77,13 @@
 
 .rounded-corners {
   border-radius: 20%;
+}
+
+.green-text {
+  color: #56f031;
+}
+
+a:visited {
+  color: #56f031;
 }
 </style>

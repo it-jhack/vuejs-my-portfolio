@@ -15,14 +15,14 @@
       </v-card-text>
 
       <v-card-text class="white--text pt-0">
-        Phasellus feugiat arcu sapien, et iaculis ipsum elementum sit amet.
-        Mauris cursus commodo interdum.
+        <!-- Phasellus feugiat arcu sapien, et iaculis ipsum elementum sit amet.
+        Mauris cursus commodo interdum. -->
       </v-card-text>
 
       <v-divider></v-divider>
 
       <v-card-text class="white--text">
-        {{ new Date().getFullYear() }} — <strong>Calango WEB</strong>
+        {{ new Date().getFullYear() }} — <strong>Thiago de Paula Amaral</strong>
       </v-card-text>
     </v-card>
   </v-footer>
@@ -39,20 +39,12 @@ export default {
   data: () => ({
     icons: [
       {
-        text: "mdi-facebook",
-        link: "",
-      },
-      {
-        text: "mdi-twitter",
-        link: "",
+        text: "mdi-github",
+        link: "https://github.com/it-jhack",
       },
       {
         text: "mdi-linkedin",
-        link: "",
-      },
-      {
-        text: "mdi-instagram",
-        link: "https://instagram.com/joabson_arley/",
+        link: "https://www.linkedin.com/in/thiago-de-paula-amaral/",
       },
     ],
   }),
