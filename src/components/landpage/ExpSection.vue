@@ -1,5 +1,5 @@
 <template>
-  <section id="pricing">
+  <section id="experience" height="100%">
     <!-- <v-parallax dark src="@/assets/img/bgHero.jpg" height="750">
       <v-row align="center" justify="center">
         <v-col cols="10">
@@ -34,7 +34,7 @@
     </v-parallax> -->
     <!-- <v-parallax height="500px" src="@/assets/img/big_data1.jpg"> -->
 
-    <v-row align="top" justify="center">
+    <v-row align="top" justify="center" height="100%">
       <v-col cols="10">
         <v-row align="top" justify="center">
           <v-col cols="12" md="6" xl="8">
@@ -209,7 +209,7 @@ export default {
   overflow: hidden;
 }
 
-#pricing {
+#experience {
   height: 500px;
   width: 100%;
   background-color: rgb(41, 41, 41);

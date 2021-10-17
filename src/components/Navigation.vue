@@ -69,7 +69,7 @@
         <v-btn text @click="$vuetify.goTo('#projects')">
           <span class="mr-2 small-text-shadow">Projects</span>
         </v-btn>
-        <v-btn text @click="$vuetify.goTo('#pricing')">
+        <v-btn text @click="$vuetify.goTo('#experience')">
           <span class="mr-2 small-text-shadow">Experience</span>
         </v-btn>
         <v-btn rounded outlined text @click="$vuetify.goTo('#contact')">
@@ -105,7 +105,7 @@ export default {
       ["mdi-home-outline", "Home", "#hero"],
       ["mdi-information-outline", "About", "#about"],
       ["mdi-download-box-outline", "Projects", "#projects"],
-      ["mdi-briefcase", "Experience", "#pricing"],
+      ["mdi-briefcase", "Experience", "#experience"],
       ["mdi-email-outline", "Contact Me", "#contact"],
     ],
   }),

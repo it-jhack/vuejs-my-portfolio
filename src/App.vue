@@ -5,7 +5,7 @@
       <home />
       <about />
       <projects />>
-      <pricing />
+      <experience />
       <contact />
     </v-main>
     <v-scale-transition>
@@ -23,29 +23,29 @@
         <v-icon>mdi-arrow-up</v-icon>
       </v-btn>
     </v-scale-transition>
-    <foote />
+    <myfooter />
   </v-app>
 </template>
 
 <script>
 import navigation from "./components/Navigation";
-import foote from "./components/Footer";
-import home from "./components/HomeSection";
-import about from "./components/AboutMe";
-import projects from "./components/Projects";
-import pricing from "./components/PricingSection";
-import contact from "./components/ContactSection";
+import myfooter from "./components/Footer";
+import home from "./components/landpage/HomeSection";
+import about from "./components/landpage/AboutMe";
+import projects from "./components/landpage/Projects";
+import experience from "./components/landpage/ExpSection";
+import contact from "./components/landpage/ContactSection";
 
 export default {
   name: "App",
 
   components: {
     navigation,
-    foote,
+    myfooter,
     home,
     about,
     projects,
-    pricing,
+    experience,
     contact,
   },
 
