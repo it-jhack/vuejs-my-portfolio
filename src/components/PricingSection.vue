@@ -40,6 +40,40 @@
           <v-col cols="12" md="6" xl="8">
             <br />
             <h1 class="display-1 mb-4 small-text-shadow">/cat my_trajectory</h1>
+
+            <v-btn
+              rounded
+              outlined
+              href="https://github.com/it-jhack"
+              target="_blank"
+              large
+              color="white"
+              class="mt-4"
+            >
+              <v-icon class="mr-2"> mdi-download </v-icon>
+              Currículo (CV)&nbsp;
+              <v-img src="@/assets/img/brazil_icon.jpg" />
+            </v-btn>
+
+            &nbsp;
+
+            <v-btn
+              rounded
+              outlined
+              href="https://github.com/it-jhack"
+              target="_blank"
+              large
+              color="white"
+              class="mt-4"
+            >
+              <v-icon class="mr-2"> mdi-download </v-icon>
+              Resume &nbsp;
+              <v-img src="@/assets/img/us-icon.png" />
+            </v-btn>
+
+            <br />
+            <br />
+
             <!-- <v-data-table
                 :headers="headers"
                 :items="experiences"
