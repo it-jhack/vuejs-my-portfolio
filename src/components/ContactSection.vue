@@ -7,8 +7,8 @@
             <v-col cols="12" sm="5" class="v-margin-bottom">
               <h1 class="font-weight-light display-1">/ping my_contact</h1>
               <h3 class="font-weight-light mt-3">
-                Contact me and I will have the pleasure to further discuss any
-                related topics
+                Contact me and I will be glad to further discuss any related
+                topics
               </h3>
               <h3 class="font-weight-light mt-3">
                 <!-- Contate-nos via Whatsapp: -->
@@ -35,7 +35,7 @@
                 Linkedin</v-btn
               > -->
             </v-col>
-            <v-col cols="12" sm="7">
+            <!-- <v-col cols="12" sm="7">
               <v-form ref="form" v-model="valid" :lazy-validation="lazy">
                 <v-text-field
                   v-model="name"
@@ -70,7 +70,7 @@
                   Enviar
                 </v-btn>
               </v-form>
-            </v-col>
+            </v-col> -->
           </v-row>
         </v-col>
       </v-row>

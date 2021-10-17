@@ -5,7 +5,7 @@
       app
       temporary
       dark
-      src="@/assets/img/bgDrawer.jpg"
+      src="@/assets/img/big_data1_vertical.jpg"
     >
       <!-- #!CHANGE
       <v-list>
@@ -105,7 +105,7 @@ export default {
       ["mdi-home-outline", "Home", "#hero"],
       ["mdi-information-outline", "About", "#about"],
       ["mdi-download-box-outline", "Projects", "#projects"],
-      ["mdi-currency-usd", "Experience", "#pricing"],
+      ["mdi-briefcase", "Experience", "#pricing"],
       ["mdi-email-outline", "Contact Me", "#contact"],
     ],
   }),
