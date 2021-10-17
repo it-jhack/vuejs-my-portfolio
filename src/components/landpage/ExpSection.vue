@@ -1,5 +1,5 @@
 <template>
-  <section id="experience" height="100%">
+  <section class="pb-8" id="experience" height="100%">
     <!-- <v-parallax dark src="@/assets/img/bgHero.jpg" height="750">
       <v-row align="center" justify="center">
         <v-col cols="10">
@@ -195,8 +195,8 @@ export default {
 };
 </script>
 
-<style>
-.btn-play {
+<style scoped>
+/* .btn-play {
   transition: 0.2s;
 }
 
@@ -207,15 +207,15 @@ export default {
   height: 3rem;
   width: 100%;
   overflow: hidden;
-}
+} */
 
 #experience {
-  height: 500px;
+  /* height: 500px; */
   width: 100%;
   background-color: rgb(41, 41, 41);
 }
 
-.svg-border-waves img {
+/* .svg-border-waves img {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -256,5 +256,5 @@ section {
   background-attachment: fixed;
   background-size: 100% auto;
   height: 900px;
-}
+} */
 </style>
