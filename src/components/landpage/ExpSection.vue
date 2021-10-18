@@ -37,9 +37,9 @@
     <v-row align="top" justify="center" height="100%">
       <v-col cols="10">
         <v-row align="top" justify="center">
-          <v-col cols="12" md="6" xl="8">
+          <v-col cols="12" md="7" xl="9">
             <br />
-            <h1 class="display-1 mb-4 small-text-shadow">/cat my_trajectory</h1>
+            <h1 class="display-1 mb-4 small-text-shadow">/cat my_roadmap</h1>
 
             <v-btn
               rounded
@@ -128,6 +128,10 @@ export default {
         { text: " ", value: "experience" },
       ],
       experiences: [
+        {
+          period: "Present Moment",
+          experience: "Front-end developer, also improving my Back-end skills",
+        },
         {
           period: "2019 Feb — Present",
           experience: "Systems Analysis and Development student at UNIP",
