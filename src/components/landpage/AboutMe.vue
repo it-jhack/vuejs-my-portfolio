@@ -21,29 +21,104 @@
               </h1>
               <br />
 
-              <div class="skills">
-                <h2>Front-End</h2>
-                <ul>
-                  <li><span class="html5"></span><em>HTML</em></li>
-                  <li><span class="css3"></span><em>CSS</em></li>
-                  <li><span class="js"></span><em>Javascript</em></li>
-                  <li><span class="jquery"></span><em>jQuery</em></li>
-                </ul>
-                <h2>Frameworks</h2>
-                <ul>
-                  <li><span class="wordpress"></span><em>Wordpress</em></li>
-                  <li><span class="magento"></span><em>Magento</em></li>
-                </ul>
-                <h2>Applications</h2>
-                <ul>
-                  <li>
-                    <span class="photoshop"></span><em>Adobe Photoshop</em>
-                  </li>
-                  <li>
-                    <span class="illustrator"></span><em>Adobe Illustrator</em>
-                  </li>
-                </ul>
-              </div>
+              <v-expansion-panels dark multiple>
+                <v-expansion-panel>
+                  <v-expansion-panel-header>
+                    Hard Skills
+                  </v-expansion-panel-header>
+                  <v-expansion-panel-content>
+                    <div class="skills">
+                      <h2>Front-End</h2>
+                      <ul>
+                        <li><span class="html5"></span><em>HTML</em></li>
+                        <li><span class="css3"></span><em>CSS</em></li>
+                        <li><span class="js"></span><em>Javascript</em></li>
+                        <li><span class="jquery"></span><em>jQuery</em></li>
+                      </ul>
+                      <h2>Frameworks</h2>
+                      <ul>
+                        <li>
+                          <span class="wordpress"></span><em>Wordpress</em>
+                        </li>
+                        <li><span class="magento"></span><em>Magento</em></li>
+                      </ul>
+                      <h2>Applications</h2>
+                      <ul>
+                        <li>
+                          <span class="photoshop"></span
+                          ><em>Adobe Photoshop</em>
+                        </li>
+                        <li>
+                          <span class="illustrator"></span
+                          ><em>Adobe Illustrator</em>
+                        </li>
+                      </ul>
+                    </div>
+                  </v-expansion-panel-content>
+                </v-expansion-panel>
+
+                <v-expansion-panel>
+                  <v-expansion-panel-header>
+                    Soft Skills
+                  </v-expansion-panel-header>
+                  <v-expansion-panel-content>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </v-expansion-panel-content>
+                </v-expansion-panel>
+
+                <v-expansion-panel>
+                  <v-expansion-panel-header> Idioms </v-expansion-panel-header>
+                  <v-expansion-panel-content>
+                    <div class="skills">
+                      <h2>
+                        <img
+                          src="@/assets/img/brazil_icon.jpg"
+                          max-height="40px"
+                          max-width="30px"
+                        />&nbsp; Brazilian Portuguese (Native)
+                      </h2>
+                      <ul>
+                        <li><span class="html5"></span><em>Reading</em></li>
+                        <li><span class="css3"></span><em>Writing</em></li>
+                        <li><span class="js"></span><em>Listening</em></li>
+                        <li><span class="jquery"></span><em>Speaking</em></li>
+                      </ul>
+
+                      <h2>
+                        <img
+                          src="@/assets/img/us-icon.png"
+                          max-height="40px"
+                          max-width="30px"
+                        />&nbsp; English
+                      </h2>
+                      <ul>
+                        <li><span class="html5"></span><em>Reading</em></li>
+                        <li><span class="css3"></span><em>Writing</em></li>
+                        <li><span class="js"></span><em>Listening</em></li>
+                        <li><span class="jquery"></span><em>Speaking</em></li>
+                      </ul>
+
+                      <h2>
+                        <img
+                          src="@/assets/img/spain_flag.png"
+                          max-height="40px"
+                          max-width="30px"
+                        />&nbsp; Spanish
+                      </h2>
+                      <ul>
+                        <li><span class="html5"></span><em>Reading</em></li>
+                        <li><span class="css3"></span><em>Writing</em></li>
+                        <li><span class="js"></span><em>Listening</em></li>
+                        <li><span class="jquery"></span><em>Speaking</em></li>
+                      </ul>
+                    </div>
+                  </v-expansion-panel-content>
+                </v-expansion-panel>
+              </v-expansion-panels>
+
               <br />
 
               <h1 class="font-weight-light justified">
@@ -130,7 +205,7 @@ h2 {
   } */
 
 .skills {
-  width: inherit;
+  width: 90%;
   position: relative;
   float: left;
   padding: 30px 0;
@@ -141,7 +216,7 @@ ul {
 }
 li {
   margin-bottom: 50px;
-  background: #dedede;
+  background: #dededea1;
   height: 6px;
   list-style-type: none;
 }
@@ -153,7 +228,7 @@ em {
 span {
   height: inherit;
   background-color: #94c245;
-  background: linear-gradient(90deg, #76b82a, #aecd60);
+  background: linear-gradient(90deg, #94c245, #94c245);
   position: absolute;
 }
 
