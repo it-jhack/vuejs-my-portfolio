@@ -62,10 +62,39 @@
                     Soft Skills
                   </v-expansion-panel-header>
                   <v-expansion-panel-content>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    <p>
+                      I consider soft skills to be far more valuable than hard
+                      skills for a person at the beginning of a career. It takes
+                      only a few months to train a person to do complex tasks at
+                      a fairly good pace. But to change a person's character and
+                      behavior... that can take a lifetime!
+                    </p>
+
+                    <p>
+                      <b>PROACTIVE:</b> I always try to deliver a little extra
+                      from what is required
+                    </p>
+                    <p>
+                      <b>TIME MANAGER:</b> Time is amongst the top most
+                      important resources. I constantly measure and evaluate how
+                      I spend my time
+                    </p>
+                    <p>
+                      <b>FRIENDLY:</b> People consider me a friendly person. A
+                      toxic person can demotivate a whole team
+                    </p>
+                    <p>
+                      <b>QUICK LEARNER:</b> As much as stating this can be very
+                      cliché, I've actually been complimented by been able to
+                      quickly adapt to tools and languages I've never used
+                      before
+                    </p>
+                    <p>
+                      <b>SELF-TAUGHT:</b> Nowadays with the vast incredible
+                      content available online, it's crucial to be able to find
+                      solutions independently, without overwhelming colleagues
+                      as a crutch for every single doubt
+                    </p>
                   </v-expansion-panel-content>
                 </v-expansion-panel>
 
@@ -153,15 +182,16 @@
                     </div>
                   </v-expansion-panel-content>
                 </v-expansion-panel>
+                <v-expansion-panel>
+                  <v-expansion-panel-header> Hobbies </v-expansion-panel-header>
+                  <v-expansion-panel-content>
+                    Some of my hobbies are working out, watching good movies and
+                    I absolutely love to improve my coding skills by building
+                    small projects and dismantling open-source code to see how
+                    it works :)
+                  </v-expansion-panel-content>
+                </v-expansion-panel>
               </v-expansion-panels>
-
-              <br />
-
-              <h1 class="font-weight-light justified">
-                I love to improve my coding skills by building small projects.
-                Some of my hobbies are working out, watching good movies and
-                dismantling softwares and hardwares to see how they work :)
-              </h1>
             </v-col>
           </v-row>
         </v-col>
