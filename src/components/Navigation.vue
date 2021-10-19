@@ -46,7 +46,7 @@
       :color="color"
       :flat="flat"
       dark
-      class="px-15"
+      class="px-0"
       :class="{ expand: flat }"
     >
       <!-- #!CHANGE
@@ -56,7 +56,7 @@
       <v-spacer />
       <v-app-bar-nav-icon
         @click.stop="drawer = !drawer"
-        class="mr-4"
+        class="mr-0"
         v-if="isXs"
       />
       <div v-else>
