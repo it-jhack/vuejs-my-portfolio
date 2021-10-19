@@ -81,10 +81,22 @@
                         />&nbsp; Brazilian Portuguese (Native)
                       </h2>
                       <ul>
-                        <li><span class="html5"></span><em>Reading</em></li>
-                        <li><span class="css3"></span><em>Writing</em></li>
-                        <li><span class="js"></span><em>Listening</em></li>
-                        <li><span class="jquery"></span><em>Speaking</em></li>
+                        <li>
+                          <span class="pt-r"></span
+                          ><em><b>Reading:</b> Excellent</em>
+                        </li>
+                        <li>
+                          <span class="pt-w"></span
+                          ><em><b>Writing:</b> Excellent</em>
+                        </li>
+                        <li>
+                          <span class="pt-l"></span
+                          ><em><b>Listening:</b> Excellent</em>
+                        </li>
+                        <li>
+                          <span class="pt-s"></span
+                          ><em><b>Speaking:</b> Excellent</em>
+                        </li>
                       </ul>
 
                       <h2>
@@ -92,13 +104,25 @@
                           src="@/assets/img/us-icon.png"
                           max-height="40px"
                           max-width="30px"
-                        />&nbsp; English
+                        />&nbsp; English (Fluent)
                       </h2>
                       <ul>
-                        <li><span class="html5"></span><em>Reading</em></li>
-                        <li><span class="css3"></span><em>Writing</em></li>
-                        <li><span class="js"></span><em>Listening</em></li>
-                        <li><span class="jquery"></span><em>Speaking</em></li>
+                        <li>
+                          <span class="en-r"></span
+                          ><em><b>Reading:</b> Fluent</em>
+                        </li>
+                        <li>
+                          <span class="en-w"></span
+                          ><em><b>Writing:</b> Fluent</em>
+                        </li>
+                        <li>
+                          <span class="en-l"></span
+                          ><em><b>Listening:</b> Fluent</em>
+                        </li>
+                        <li>
+                          <span class="en-s"></span
+                          ><em><b>Speaking:</b> Fluent</em>
+                        </li>
                       </ul>
 
                       <h2>
@@ -106,13 +130,25 @@
                           src="@/assets/img/spain_flag.png"
                           max-height="40px"
                           max-width="30px"
-                        />&nbsp; Spanish
+                        />&nbsp; Spanish (Good)
                       </h2>
                       <ul>
-                        <li><span class="html5"></span><em>Reading</em></li>
-                        <li><span class="css3"></span><em>Writing</em></li>
-                        <li><span class="js"></span><em>Listening</em></li>
-                        <li><span class="jquery"></span><em>Speaking</em></li>
+                        <li>
+                          <span class="sp-r"></span
+                          ><em><b>Reading:</b> Very Good</em>
+                        </li>
+                        <li>
+                          <span class="sp-w"></span
+                          ><em><b>Writing:</b> Very Good</em>
+                        </li>
+                        <li>
+                          <span class="sp-l"></span
+                          ><em><b>Listening:</b> Good</em>
+                        </li>
+                        <li>
+                          <span class="sp-s"></span
+                          ><em><b>Speaking:</b> Communicable</em>
+                        </li>
                       </ul>
                     </div>
                   </v-expansion-panel-content>
@@ -179,30 +215,7 @@ h2 {
   font-weight: 700;
 }
 
-/* .skills {
-  width: inherit;
-  position: relative;
-  float: left;
-  padding: 30px 0;
-  ul {
-    padding-top: 30px;
-    & > li {
-      margin-bottom: 50px;
-      background: #dedede;
-      height: 6px;
-      & em {
-        font-size: 18px;
-        position: relative;
-        top: -30px;
-      }
-      & span {
-        height: inherit;
-        background-color: #94c245;
-        background: linear-gradient(90deg, #76b82a, #aecd60);
-        position: absolute;
-      }
-    }
-  } */
+/* Skill Bars */
 
 .skills {
   width: 90%;
@@ -216,7 +229,7 @@ ul {
 }
 li {
   margin-bottom: 50px;
-  background: #dededea1;
+  background: #dededed5;
   height: 6px;
   list-style-type: none;
 }
@@ -227,42 +240,93 @@ em {
 }
 span {
   height: inherit;
-  background-color: #94c245;
-  background: linear-gradient(90deg, #94c245, #94c245);
+  background-color: #009600da;
+  background: linear-gradient(90deg, #009600da, #009600da);
   position: absolute;
 }
 
 .html5 {
   width: 90%;
-  animation: html5 2s ease-out;
+  animation: html5 1s ease-out;
 }
 .css3 {
   width: 80%;
-  animation: css3 2s ease-out;
+  animation: css3 1s ease-out;
 }
 .js {
   width: 50%;
-  animation: js 2s ease-out;
+  animation: js 1s ease-out;
 }
 .jquery {
   width: 60%;
-  animation: jquery 2s ease-out;
+  animation: jquery 1s ease-out;
 }
 .wordpress {
   width: 50%;
-  animation: wordpress 2s ease-out;
+  animation: wordpress 1s ease-out;
 }
 .magento {
   width: 60%;
-  animation: magento 2s ease-out;
+  animation: magento 1s ease-out;
 }
 .photoshop {
   width: 90%;
-  animation: photoshop 2s ease-out;
+  animation: photoshop 1s ease-out;
 }
 .illustrator {
   width: 80%;
-  animation: illustrator 2s ease-out;
+  animation: illustrator 1s ease-out;
+}
+
+.pt-r {
+  width: 93%;
+  animation: pt-r 1s ease-out;
+}
+.pt-w {
+  width: 93%;
+  animation: pt-w 1s ease-out;
+}
+.pt-l {
+  width: 93%;
+  animation: pt-l 1s ease-out;
+}
+.pt-s {
+  width: 93%;
+  animation: pt-s 1s ease-out;
+}
+
+.en-r {
+  width: 90%;
+  animation: en-r 1s ease-out;
+}
+.en-w {
+  width: 90%;
+  animation: en-w 1s ease-out;
+}
+.en-l {
+  width: 90%;
+  animation: en-l 1s ease-out;
+}
+.en-s {
+  width: 90%;
+  animation: en-s 1s ease-out;
+}
+
+.sp-r {
+  width: 85%;
+  animation: sp-r 1s ease-out;
+}
+.sp-w {
+  width: 80%;
+  animation: sp-w 1s ease-out;
+}
+.sp-l {
+  width: 70%;
+  animation: sp-l 1s ease-out;
+}
+.sp-s {
+  width: 60%;
+  animation: sp-s 1s ease-out;
 }
 
 @keyframes html5 {
@@ -327,6 +391,106 @@ span {
   }
   100% {
     width: 80%;
+  }
+}
+
+/* idioms */
+@keyframes pt-r {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 93%;
+  }
+}
+@keyframes pt-w {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 93%;
+  }
+}
+@keyframes pt-l {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 93%;
+  }
+}
+@keyframes pt-s {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 93%;
+  }
+}
+
+@keyframes en-r {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 90%;
+  }
+}
+@keyframes en-w {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 90%;
+  }
+}
+@keyframes en-l {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 90%;
+  }
+}
+@keyframes en-s {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes sp-r {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 85%;
+  }
+}
+@keyframes sp-w {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 80%;
+  }
+}
+@keyframes sp-l {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 70%;
+  }
+}
+@keyframes sp-s {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 60%;
   }
 }
 </style>
