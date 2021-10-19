@@ -7,13 +7,13 @@
             <v-col sm="4" class="hidden-xs-only">
               <v-img
                 src="@/assets/img/thiago.jpg"
-                class="d-block ml-auto mr-auto rounded-corners"
+                class="d-block ml-auto mr-auto mt-4 rounded-corners"
                 max-width="200px"
               />
             </v-col>
             <v-col cols="12" sm="8" class="white--text text-left">
-              <h1 class="font-weight-light display-2 mb-2">/whoami</h1>
-              <h1 class="font-weight-light justified">
+              <h1 class="font-weight-light display-2 mb-2 mt-4">/whoami</h1>
+              <h1 class="font-weight-light font-size-22 justified">
                 My name is Thiago Amaral, I'm a web developer and a
                 <b>Systems Analysis and Development</b>
                 student from Brazil, although most of what I know I learned by
@@ -249,6 +249,10 @@
 .justified {
   text-align: justify;
   text-justify: inter-word;
+}
+
+.font-size-22 {
+  font-size: 22px;
 }
 
 @import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700");

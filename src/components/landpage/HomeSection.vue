@@ -41,8 +41,14 @@
                 Hi, my name is Thiago
               </h1>
               <h1 class="font-weight-light small-text-shadow">
-                I'm an avid self-taught programmer who loves to code and to
-                learn how stuff works.
+                <p>
+                  I'm an avid self-taught programmer who loves to code and to
+                  learn how stuff works.
+                </p>
+                <p>
+                  This simple landpage was created to showcase my coding
+                  portfolio and my English fluency.
+                </p>
               </h1>
               <v-btn
                 rounded

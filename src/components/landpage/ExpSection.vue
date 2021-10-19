@@ -44,20 +44,20 @@
             <v-btn
               rounded
               outlined
-              href="https://github.com/it-jhack"
+              href="https://drive.google.com/file/d/1WJerXKFDnReh05pwwSD2H2bXYeGxZkzQ/view?usp=sharing"
               target="_blank"
               large
               color="white"
               class="mt-4"
             >
               <v-icon class="mr-2"> mdi-download </v-icon>
-              Currículo (CV)&nbsp;
+              Curriculum Vitae &nbsp;
               <v-img src="@/assets/img/brazil_icon.jpg" />
             </v-btn>
 
-            &nbsp;
+            <!--&nbsp;
 
-            <v-btn
+             <v-btn
               rounded
               outlined
               href="https://github.com/it-jhack"
@@ -69,10 +69,9 @@
               <v-icon class="mr-2"> mdi-download </v-icon>
               Resume &nbsp;
               <v-img src="@/assets/img/us-icon.png" />
-            </v-btn>
+            </v-btn> -->
 
-            <br />
-            <br />
+            <br /><br />
 
             <!-- <v-data-table
                 :headers="headers"

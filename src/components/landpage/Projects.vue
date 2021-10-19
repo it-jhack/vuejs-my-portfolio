@@ -3,7 +3,7 @@
     <v-container fluid>
       <v-row align="center" justify="center">
         <v-col cols="10">
-          <v-row align="center" justify="center">
+          <v-row>
             <v-col cols="12" sm="6" class="white--text text-left">
               <h1 class="font-weight-light display-2 mb-2">
                 /git clone projects.git
@@ -48,9 +48,10 @@
 
             <v-col sm="6" class="hidden-xs-only">
               <v-img
+                contain
                 src="@/assets/img/subtaker.png"
-                contain="true"
-                position="top center"
+                position="top"
+                class="mt-2"
               />
             </v-col>
           </v-row>
