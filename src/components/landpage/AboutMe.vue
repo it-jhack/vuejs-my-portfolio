@@ -22,7 +22,7 @@
               <br />
 
               <v-expansion-panels dark multiple>
-                <v-expansion-panel>
+                <!-- <v-expansion-panel>
                   <v-expansion-panel-header>
                     Hard Skills
                   </v-expansion-panel-header>
@@ -54,6 +54,31 @@
                         </li>
                       </ul>
                     </div>
+                  </v-expansion-panel-content>
+                </v-expansion-panel> -->
+
+                <v-expansion-panel>
+                  <v-expansion-panel-header>
+                    Hard Skills
+                  </v-expansion-panel-header>
+                  <v-expansion-panel-content>
+                    <p>
+                      You might find that my Projects can better indicate my
+                      skills set and potential rather than my hard skills
+                      themselves.
+                    </p>
+                    <p>
+                      Nonetheless, I built this website using Vue.js, but I'm
+                      also very interested in React as an alternative front-end
+                      framework and PHP Laravel as a way to improve my back-end
+                      capabilities.
+                    </p>
+                    <p>
+                      I have a fair knowledge of IT security as I have
+                      experimented with bug hunting in the past. I have also
+                      used Python to developed a tool that can identify
+                      Subdomain Takeover vulnerabilities.
+                    </p>
                   </v-expansion-panel-content>
                 </v-expansion-panel>
 
@@ -188,7 +213,9 @@
                     Some of my hobbies are working out, watching good movies and
                     I absolutely love to improve my coding skills by building
                     small projects and dismantling open-source code to see how
-                    it works :)
+                    it works. From time to time, I also experiment with bug
+                    hunting, as IT security very much picks my interest and
+                    ethical hacking seems like fun :)
                   </v-expansion-panel-content>
                 </v-expansion-panel>
               </v-expansion-panels>
