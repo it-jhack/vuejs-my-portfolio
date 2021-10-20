@@ -7,19 +7,6 @@
       dark
       src="@/assets/img/big_data1_vertical.jpg"
     >
-      <!-- #!CHANGE
-      <v-list>
-        <v-list-item>
-          <v-list-item-avatar>
-            <img src="@/assets/img/logo.png" alt="Logo" />
-          </v-list-item-avatar>
-          <v-list-item-content>
-            <v-list-item-title class="title">Thiago</v-list-item-title>
-            <v-list-item-subtitle>Amaral</v-list-item-subtitle>
-          </v-list-item-content>
-        </v-list-item>
-      </v-list> -->
-
       <v-divider />
 
       <v-list dense>
@@ -49,10 +36,6 @@
       class="px-0"
       :class="{ expand: flat }"
     >
-      <!-- #!CHANGE
-      <v-toolbar-title>
-        <v-img src="@/assets/img/logo.png" max-width="50px" />
-      </v-toolbar-title> -->
       <v-spacer />
       <v-app-bar-nav-icon
         @click.stop="drawer = !drawer"
@@ -102,7 +85,7 @@ export default {
     drawer: null,
     isXs: false,
     items: [
-      ["mdi-home-outline", "Home", "#hero"],
+      ["mdi-home-outline", "Home", "#home"],
       ["mdi-information-outline", "About", "#about"],
       ["mdi-download-box-outline", "Projects", "#projects"],
       ["mdi-briefcase", "Experience", "#experience"],

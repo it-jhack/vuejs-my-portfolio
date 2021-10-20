@@ -15,8 +15,7 @@
       </v-card-text>
 
       <v-card-text class="white--text pt-0">
-        <!-- Phasellus feugiat arcu sapien, et iaculis ipsum elementum sit amet.
-        Mauris cursus commodo interdum. -->
+        <!-- V-card text here -->
       </v-card-text>
 
       <v-divider></v-divider>

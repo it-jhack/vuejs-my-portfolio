@@ -22,41 +22,6 @@
               <br />
 
               <v-expansion-panels dark multiple>
-                <!-- <v-expansion-panel>
-                  <v-expansion-panel-header>
-                    Hard Skills
-                  </v-expansion-panel-header>
-                  <v-expansion-panel-content>
-                    <div class="skills">
-                      <h2>Front-End</h2>
-                      <ul>
-                        <li><span class="html5"></span><em>HTML</em></li>
-                        <li><span class="css3"></span><em>CSS</em></li>
-                        <li><span class="js"></span><em>Javascript</em></li>
-                        <li><span class="jquery"></span><em>jQuery</em></li>
-                      </ul>
-                      <h2>Frameworks</h2>
-                      <ul>
-                        <li>
-                          <span class="wordpress"></span><em>Wordpress</em>
-                        </li>
-                        <li><span class="magento"></span><em>Magento</em></li>
-                      </ul>
-                      <h2>Applications</h2>
-                      <ul>
-                        <li>
-                          <span class="photoshop"></span
-                          ><em>Adobe Photoshop</em>
-                        </li>
-                        <li>
-                          <span class="illustrator"></span
-                          ><em>Adobe Illustrator</em>
-                        </li>
-                      </ul>
-                    </div>
-                  </v-expansion-panel-content>
-                </v-expansion-panel> -->
-
                 <v-expansion-panel>
                   <v-expansion-panel-header>
                     Hard Skills
@@ -260,15 +225,6 @@
 html {
   background: #f4f4f4;
 }
-
-/* body {
-  font-family: "Open Sans Condensed", sans-serif;
-  font-size: 12px;
-  color: #444;
-  width: 360px;
-  margin: 20px auto;
-  background-color: pink;
-} */
 
 h2 {
   font-size: 24px;

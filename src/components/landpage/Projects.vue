@@ -57,10 +57,6 @@
           </v-row>
         </v-col>
       </v-row>
-      <!-- #!DELETE? -->
-      <!-- <div class="svg-border-waves text-white">
-        <v-img src="@/assets/img/borderWaves.svg" />
-      </div> -->
     </v-container>
   </section>
 </template>
