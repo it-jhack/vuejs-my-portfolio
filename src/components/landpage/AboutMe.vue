@@ -261,14 +261,14 @@ html {
   background: #f4f4f4;
 }
 
-body {
+/* body {
   font-family: "Open Sans Condensed", sans-serif;
   font-size: 12px;
   color: #444;
   width: 360px;
   margin: 20px auto;
   background-color: pink;
-}
+} */
 
 h2 {
   font-size: 24px;
@@ -279,10 +279,10 @@ h2 {
 /* Skill Bars */
 
 .skills {
-  width: 90%;
+  width: 93%;
   position: relative;
   float: left;
-  padding: 30px 0;
+  padding: 15px 0;
 }
 
 ul {
@@ -302,7 +302,8 @@ em {
 span {
   height: inherit;
   background-color: #009600da;
-  background: linear-gradient(90deg, #009600da, #009600da);
+  /* background: linear-gradient(90deg, #009600da, #009600da); */
+  background: #009600da;
   position: absolute;
 }
 
