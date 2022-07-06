@@ -96,3 +96,15 @@ export default {
   background-size: cover;
 }
 </style>
+
+<style>
+/* Global classes */
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-space-evenly {
+  justify-content: space-evenly;
+}
+</style>
