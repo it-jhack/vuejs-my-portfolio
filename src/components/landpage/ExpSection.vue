@@ -66,24 +66,18 @@ export default {
       ],
       experiences: [
         {
-          period: "Present Moment",
-          experience: "Front-end developer, also improving my Back-end skills",
+          period: "2021 Dec — Present",
+          experience:
+            "Full Stack Web Developer at WeClever.co (focused on Front-end). \
+            Using Vue.js, TypeScript, Node.js, CSS, MySQL and AWS cloud services on a daily basis",
         },
         {
-          period: "2019 Feb — Present",
-          experience: "Systems Analysis and Development student at UNIP",
-        },
-        {
-          period: "2018 Dec — 2099",
-          experience: "Self-taught IT student",
+          period: "2019 Feb — 2021 Dec",
+          experience: "Systems Analysis and Development, UNIP (University)",
         },
         {
           period: "2017 Mar — 2020 Dec",
-          experience: "Office Assistant",
-        },
-        {
-          period: "2016 Sep — Dec",
-          experience: "Intern at Duratex - Agudos, Brazil.",
+          experience: "Administrative Assistant",
         },
         {
           period: "2015 Apr — Jul",
