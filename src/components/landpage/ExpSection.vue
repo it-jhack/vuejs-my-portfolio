@@ -4,26 +4,37 @@
       <v-col cols="10">
         <v-row align="top" justify="center">
           <v-col cols="12" md="7" xl="9">
-            <br />
             <h1 class="display-1 mb-4 small-text-shadow">/cat my_roadmap</h1>
 
-            <v-btn
-              rounded
-              outlined
-              href="https://drive.google.com/file/d/1WJerXKFDnReh05pwwSD2H2bXYeGxZkzQ/view?usp=sharing"
-              target="_blank"
-              large
-              color="white"
-              class="mt-4"
-            >
-              <v-icon class="mr-2"> mdi-download </v-icon>
-              Curriculum Vitae &nbsp;
-              <v-img src="@/assets/img/brazil_icon.jpg" />
-            </v-btn>
+            <div class="d-flex justify-content-space-evenly">
+              <v-btn
+                rounded
+                outlined
+                href="https://drive.google.com/file/d/1BH-3ObjuuO5fkv09Rv5ixuop7oLxaoKJ/view?usp=sharing"
+                target="_blank"
+                large
+                color="white"
+                class="mt-4"
+              >
+                <v-icon class="mr-2"> mdi-download </v-icon>
+                <span>Download Resume</span>
+              </v-btn>
 
-            <br /><br />
+              <v-btn
+                rounded
+                outlined
+                href="https://www.linkedin.com/in/thiago-de-paula-amaral/"
+                target="_blank"
+                large
+                color="white"
+                class="mt-4"
+              >
+                <v-icon class="mr-2"> mdi-linkedin </v-icon>
+                <span>Check my Linkedin</span>
+              </v-btn>
+            </div>
 
-            <v-simple-table dark>
+            <v-simple-table dark class="mt-5">
               <template v-slot:default>
                 <tbody>
                   <tr v-for="item in experiences" :key="item.period">
@@ -106,7 +117,7 @@ export default {
 <style scoped>
 #experience {
   width: 100%;
-  background-color: rgb(41, 41, 41);
+  background-color: #292929;
 }
 
 h1 {
