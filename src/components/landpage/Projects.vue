@@ -3,12 +3,12 @@
     <v-container fluid>
       <v-row align="center" justify="center">
         <v-col cols="10">
-          <v-row>
-            <v-col cols="12" sm="6" class="white--text text-left">
-              <h1 class="font-weight-light display-2 mb-2">
+          <v-row class="mt-5">
+            <v-col cols="12" sm="6" class="text-left">
+              <h1 class="font-weight-light white-color display-2 mb-2">
                 /git clone projects.git
               </h1>
-              <h1 class="font-weight-light">
+              <h1 class="font-weight-light white-color">
                 Make sure to checkout my Projects and Gists on GitHub
                 @it-jhack<br />
                 <v-btn
@@ -18,40 +18,141 @@
                   target="_blank"
                   large
                   color="white"
-                  class="mt-4"
+                  class="mt-5"
                 >
                   <v-icon class="mr-2"> mdi-github </v-icon>
-                  Git Hub
+                  GitHub
                 </v-btn>
-                <br /><br />
-                Checkout some of my public projects: <br />
-                <a
-                  class="green-text"
-                  href="https://github.com/it-jhack/subtaker"
-                  target="_blank"
-                  >/subtaker</a
-                ><br />
-                <a
-                  class="green-text"
-                  href="https://github.com/it-jhack/subsort"
-                  target="_blank"
-                  >/subsort</a
-                ><br />
-                <a
-                  class="green-text"
-                  href="https://github.com/it-jhack/bughunter-debian-setup"
-                  target="_blank"
-                  >/bughunter-debian-setup</a
-                ><br />
+
+                <p class="mt-5">Checkout some of my public projects:</p>
+
+                <v-tooltip
+                  bottom
+                  nudge-top="42"
+                  nudge-right="130"
+                  max-width="20vw"
+                >
+                  <template v-slot:activator="{ on, attrs }">
+                    <p class="my-0">
+                      <a
+                        href="https://github.com/it-jhack/vuejs-swapi"
+                        target="_blank"
+                        v-bind="attrs"
+                        v-on="on"
+                      >
+                        /swapi
+                        <span class="white-color">
+                          (star wars api)
+                          <v-icon class="info-icon">
+                            mdi-information-outline
+                          </v-icon>
+                        </span>
+                      </a>
+                    </p>
+                  </template>
+                  <span>
+                    Project I did mid 2021 uniting front-end and back-end. The
+                    front-end fetches characters from Star Wars Api (Swapi),
+                    processes the response JSON object and returns which Star
+                    Wars movies the selected character has been in. If available
+                    as an environment variable it also uses Bing search engine
+                    to search for the character and shows the first image result
+                  </span>
+                </v-tooltip>
+
+                <v-tooltip
+                  bottom
+                  nudge-top="42"
+                  nudge-right="130"
+                  max-width="20vw"
+                >
+                  <template v-slot:activator="{ on, attrs }">
+                    <p class="my-0">
+                      <a
+                        href="https://github.com/it-jhack/subtaker"
+                        target="_blank"
+                        v-bind="attrs"
+                        v-on="on"
+                      >
+                        /subtaker
+                        <v-icon class="info-icon">
+                          mdi-information-outline
+                        </v-icon>
+                      </a>
+                    </p>
+                  </template>
+                  <span>
+                    Subtaker is a security penetration tool I developed in
+                    Python to help find Subdomain Takeover vulnerabilities
+                  </span>
+                </v-tooltip>
+
+                <v-tooltip
+                  bottom
+                  nudge-top="42"
+                  nudge-right="130"
+                  max-width="20vw"
+                >
+                  <template v-slot:activator="{ on, attrs }">
+                    <p class="my-0">
+                      <a
+                        href="https://github.com/it-jhack/subsort"
+                        target="_blank"
+                        v-bind="attrs"
+                        v-on="on"
+                      >
+                        /subsort
+                        <v-icon class="info-icon">
+                          mdi-information-outline
+                        </v-icon>
+                      </a>
+                    </p>
+                  </template>
+                  <span>
+                    An algorithm I developed in Python, as part of the Subtaker
+                    project, that removes subdomain redundancies and returns an
+                    optimized list. It saves a lot of time and computing
+                    resources when parsing through large subdomain/DNS database
+                    files
+                  </span>
+                </v-tooltip>
+
+                <v-tooltip
+                  bottom
+                  nudge-top="42"
+                  nudge-right="130"
+                  max-width="20vw"
+                >
+                  <template v-slot:activator="{ on, attrs }">
+                    <p class="my-0">
+                      <a
+                        href="https://github.com/it-jhack/bughunter-debian-setup"
+                        target="_blank"
+                        v-bind="attrs"
+                        v-on="on"
+                      >
+                        /bughunter-setup
+                        <v-icon class="info-icon">
+                          mdi-information-outline
+                        </v-icon>
+                      </a>
+                    </p>
+                  </template>
+                  <span>
+                    A Bash script (linux programming language) I created to
+                    install essential tools for Bug Bounty Hunters on a fresh
+                    Debian Operational System.
+                  </span>
+                </v-tooltip>
               </h1>
             </v-col>
 
             <v-col sm="6" class="hidden-xs-only">
               <v-img
                 contain
-                src="@/assets/img/subtaker.png"
+                src="@/assets/img/swapi-demo.gif"
                 position="top"
-                class="mt-2"
+                class="mt-2 mb-4"
               />
             </v-col>
           </v-row>
@@ -80,8 +181,12 @@
   border-radius: 20%;
 }
 
-.green-text {
-  color: #56f031;
+.info-icon {
+  color: white !important;
+}
+
+a {
+  color: #56f031 !important;
   text-decoration: none;
 }
 
