@@ -4,7 +4,7 @@
     <v-main class="pt-0">
       <home />
       <about />
-      <projects />
+      <projects class="mb-3" />
       <experience />
       <contact />
     </v-main>
@@ -106,5 +106,9 @@ export default {
 
 .justify-content-space-evenly {
   justify-content: space-evenly;
+}
+
+.white-color {
+  color: #ffffff;
 }
 </style>
