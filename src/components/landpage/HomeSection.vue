@@ -14,8 +14,8 @@
                   learn how stuff works.
                 </p>
                 <p>
-                  This simple landpage was created to showcase my coding
-                  portfolio and my English fluency.
+                  This responsive landing page was created to showcase my
+                  portfolio and developing skills.
                 </p>
               </h1>
               <v-btn

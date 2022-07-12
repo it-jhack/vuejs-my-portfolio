@@ -14,10 +14,10 @@
             <v-col cols="12" sm="8" class="white--text text-left">
               <h1 class="font-weight-light display-2 mb-2 mt-4">/whoami</h1>
               <h1 class="font-weight-light font-size-22 justified">
-                My name is Thiago Amaral, I'm a web developer and a
-                <b>Systems Analysis and Development</b>
-                student from Brazil, although most of what I know I learned by
-                myself online. I also have a previous Engineering degree.
+                My name is Thiago Amaral, I'm a Junior Full Stack Web Developer
+                focused on front-end. Most of what I know I learned by myself
+                online. I have a degree in System Analysis and Development and
+                also a previous Engineering degree.
               </h1>
               <br />
 
@@ -28,21 +28,44 @@
                   </v-expansion-panel-header>
                   <v-expansion-panel-content>
                     <p>
-                      You might find that my Projects can better indicate my
-                      skills set and potential rather than my hard skills
-                      themselves.
+                      I started working as a Front-end developer in June 2021,
+                      and as a Full Stack developer in December of the same
+                      year.
                     </p>
                     <p>
-                      Nonetheless, I built this website using Vue.js, but I'm
-                      also very interested in React as an alternative front-end
-                      framework and PHP Laravel as a way to improve my back-end
-                      capabilities.
+                      Although I work focused mainly on front-end, I Have worked
+                      in backend features and hotfixes on numerous occasions,
+                      which gave me an overall good understanding of APIs, how
+                      to better structure the front-end and how to effectively
+                      connect it to the back-end.
                     </p>
                     <p>
-                      I have a fair knowledge of IT security as I have
-                      experimented with bug hunting in the past. I have also
-                      used Python to developed a tool that can identify
-                      Subdomain Takeover vulnerabilities.
+                      One year of experience might not look like much, but I
+                      feel that I've seen and learned so much during this time
+                      that it doesn't feel like I've been working on this field
+                      for so little time. Some examples of what I have already
+                      worked with:
+                    </p>
+                    <ul>
+                      <li>Vue.js</li>
+                      <li>TypeScript (mostly) and JavaScript</li>
+                      <li>CSS and SCSS</li>
+                      <li>Flexbox and Grid system</li>
+                      <li>BootStrap Vue</li>
+                      <li>Node.js (also in TypeScript)</li>
+                      <li>JSON, Rest APIs, CORS</li>
+                      <li>MySQL and NoSQL</li>
+                      <li>AWS Cloud Services</li>
+                      <li>Google Tag Manager</li>
+                      <li>jQuery</li>
+                      <li>GitFlow, Agile and Scrum methodologies</li>
+                    </ul>
+                    <p>
+                      Prior to that, I have experimented with bug hunting, which
+                      gave my a good general understanding of web
+                      vulnerabilities. During this period I also developed a
+                      tool that can identify Subdomain Takeover vulnerabilities
+                      in Python.
                     </p>
                   </v-expansion-panel-content>
                 </v-expansion-panel>
@@ -53,37 +76,39 @@
                   </v-expansion-panel-header>
                   <v-expansion-panel-content>
                     <p>
-                      I consider soft skills to be far more valuable than hard
-                      skills for a person at the beginning of a career. It takes
-                      only a few months to train a person to do complex tasks at
-                      a fairly good pace. But to change a person's character and
+                      Soft skills can be fairly more valuable than hard skills
+                      for a person at the beginning of a career. It takes only a
+                      few months to train a person to do complex tasks at a
+                      fairly good pace. But to change a person's character and
                       behavior... that can take a lifetime!
                     </p>
-
                     <p>
-                      <b>PROACTIVE:</b> I always try to deliver a little extra
-                      from what is required
+                      <b>PROACTIVE:</b> Getting the job done is not enough.
+                      Getting it well done is a must.
                     </p>
                     <p>
-                      <b>TIME MANAGER:</b> Time is amongst the top most
-                      important resources. I constantly measure and evaluate how
-                      I spend my time
+                      <b>TIME MANAGEMENT:</b> Time is the most valuable resource
+                      there is. There is only a finite amount and we cannot even
+                      know for sure how much of it we got left. I constantly
+                      measure and evaluate how I spend my time, seeking what can
+                      bring me the best cost-benefit in the long run, without
+                      sacrificing physical and mental health.
                     </p>
                     <p>
-                      <b>FRIENDLY:</b> People consider me a friendly person. A
-                      toxic person can demotivate a whole team
+                      <b>FRIENDLY:</b> People consider me to be very friendly,
+                      even for brazilian standards 😁
                     </p>
                     <p>
-                      <b>QUICK LEARNER:</b> As much as stating this can be very
-                      cliché, I've actually been complimented by been able to
-                      quickly adapt to tools and languages I've never used
-                      before
+                      <b>QUICK LEARNER:</b> I know that stating this can be very
+                      cliché, but I've actually been complimented for being able
+                      to quickly adapt to tools and languages I've never used
+                      before.
                     </p>
                     <p>
-                      <b>SELF-TAUGHT:</b> Nowadays with the vast incredible
-                      content available online, it's crucial to be able to find
-                      solutions independently, without overwhelming colleagues
-                      as a crutch for every single doubt
+                      <b>SELF-TAUGHT:</b> There is a vast magnitude of
+                      incredible content available online. It's essential for a
+                      developer to be able to find solutions independently, and
+                      being able to apply them to your project and context.
                     </p>
                   </v-expansion-panel-content>
                 </v-expansion-panel>
@@ -177,10 +202,10 @@
                   <v-expansion-panel-content>
                     Some of my hobbies are working out, watching good movies and
                     I absolutely love to improve my coding skills by building
-                    small projects and dismantling open-source code to see how
-                    it works. From time to time, I also experiment with bug
+                    small side projects and dismantling open-source code to see
+                    how they work. From time to time, I also experiment with bug
                     hunting, as IT security very much picks my interest and
-                    ethical hacking seems like fun :)
+                    ethical (authorized) hacking seems like fun :&#41;
                   </v-expansion-panel-content>
                 </v-expansion-panel>
               </v-expansion-panels>
