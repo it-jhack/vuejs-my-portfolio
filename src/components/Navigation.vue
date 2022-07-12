@@ -20,9 +20,9 @@
             <v-icon>{{ icon }}</v-icon>
           </v-list-item-icon>
           <v-list-item-content>
-            <v-list-item-title class="subtitile-1 small-text-shadow">{{
-              text
-            }}</v-list-item-title>
+            <v-list-item-title class="subtitile-1 small-text-shadow">
+              {{text}}
+            </v-list-item-title>
           </v-list-item-content>
         </v-list-item>
       </v-list>
@@ -66,7 +66,7 @@
 <style scoped>
 .small-text-shadow {
   color: white;
-  text-shadow: 2px 2px 2px #000000;
+  text-shadow: 1px 1px 1px #000000;
 }
 
 .v-toolbar {
