@@ -5,10 +5,12 @@
         <v-col cols="10">
           <v-row align="center" justify="center">
             <v-col cols="12" md="6" xl="8">
-              <h1 class="display-2 font-weight-bold mb-4 large-text-shadow">
-                Hi, my name is Thiago
-              </h1>
-              <h1 class="font-weight-light small-text-shadow">
+              <div>
+                <h1 class="mb-4 heavy-title">
+                  Hi, my name is Thiago
+                </h1>
+              </div>
+              <div class="p-text">
                 <p>
                   I'm an avid self-taught programmer who loves to code and to
                   learn how stuff works.
@@ -17,14 +19,14 @@
                   This responsive landing page was created to showcase my
                   portfolio and developing skills.
                 </p>
-              </h1>
+              </div>
               <v-btn
                 rounded
                 outlined
                 large
                 dark
                 @click="$vuetify.goTo('#about')"
-                class="mt-5 small-text-shadow"
+                class="mt-5"
               >
                 Tell me more
                 <v-icon class="ml-2">mdi-arrow-down</v-icon>
