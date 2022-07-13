@@ -111,4 +111,19 @@ export default {
 .white-color {
   color: #ffffff;
 }
+
+.heavy-title {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.light-title {
+  font-size: 48px;
+  font-weight: 300;
+}
+
+.p-text {
+ font-size: 22px;
+ font-weight: 300;
+}
 </style>
