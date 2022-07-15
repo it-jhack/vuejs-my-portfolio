@@ -27,28 +27,27 @@
                 <p class="mt-5">Checkout some of my public projects:</p>
 
                 <v-tooltip
-                  bottom
-                  nudge-top="42"
-                  nudge-right="130"
-                  max-width="20vw"
+                  :bottom="!this.$store.state.isMobile"
+                  :top="this.$store.state.isMobile"
+                  :nudge-top="!this.$store.state.isMobile ? '42' : ''"
+                  :nudge-right="!this.$store.state.isMobile ? '130' : ''"
+                  :max-width="!this.$store.state.isMobile ? '20vw' : '90vw'"
                 >
                   <template v-slot:activator="{ on, attrs }">
-                    <p class="my-0">
+                    <div class="my-0">
                       <a
                         href="https://github.com/it-jhack/vuejs-swapi"
                         target="_blank"
-                        v-bind="attrs"
-                        v-on="on"
                       >
                         /swapi
-                        <span class="white-color">
-                          (star wars api)
-                          <v-icon class="info-icon">
-                            mdi-information-outline
-                          </v-icon>
+                        <span class="white-color item-parenthesis">
+                          (Star Wars API)
                         </span>
                       </a>
-                    </p>
+                      <v-icon class="info-icon" v-bind="attrs" v-on="on">
+                        mdi-information-outline
+                      </v-icon>
+                    </div>
                   </template>
                   <span>
                     Project I did mid 2021 uniting front-end and back-end. The
@@ -61,25 +60,24 @@
                 </v-tooltip>
 
                 <v-tooltip
-                  bottom
-                  nudge-top="42"
-                  nudge-right="130"
-                  max-width="20vw"
+                  :bottom="!this.$store.state.isMobile"
+                  :top="this.$store.state.isMobile"
+                  :nudge-top="!this.$store.state.isMobile ? '42' : ''"
+                  :nudge-right="!this.$store.state.isMobile ? '130' : ''"
+                  :max-width="!this.$store.state.isMobile ? '20vw' : '90vw'"
                 >
                   <template v-slot:activator="{ on, attrs }">
-                    <p class="my-0">
+                    <div class="my-0">
                       <a
                         href="https://github.com/it-jhack/subtaker"
                         target="_blank"
-                        v-bind="attrs"
-                        v-on="on"
                       >
                         /subtaker
-                        <v-icon class="info-icon">
-                          mdi-information-outline
-                        </v-icon>
                       </a>
-                    </p>
+                      <v-icon class="info-icon" v-bind="attrs" v-on="on">
+                        mdi-information-outline
+                      </v-icon>
+                    </div>
                   </template>
                   <span>
                     Subtaker is a security penetration tool I developed in
@@ -88,21 +86,20 @@
                 </v-tooltip>
 
                 <v-tooltip
-                  bottom
-                  nudge-top="42"
-                  nudge-right="130"
-                  max-width="20vw"
+                  :bottom="!this.$store.state.isMobile"
+                  :top="this.$store.state.isMobile"
+                  :nudge-top="!this.$store.state.isMobile ? '42' : ''"
+                  :nudge-right="!this.$store.state.isMobile ? '130' : ''"
+                  :max-width="!this.$store.state.isMobile ? '20vw' : '90vw'"
                 >
                   <template v-slot:activator="{ on, attrs }">
                     <p class="my-0">
                       <a
                         href="https://github.com/it-jhack/subsort"
                         target="_blank"
-                        v-bind="attrs"
-                        v-on="on"
                       >
                         /subsort
-                        <v-icon class="info-icon">
+                        <v-icon class="info-icon" v-bind="attrs" v-on="on">
                           mdi-information-outline
                         </v-icon>
                       </a>
@@ -118,21 +115,20 @@
                 </v-tooltip>
 
                 <v-tooltip
-                  bottom
-                  nudge-top="42"
-                  nudge-right="130"
-                  max-width="20vw"
+                  :bottom="!this.$store.state.isMobile"
+                  :top="this.$store.state.isMobile"
+                  :nudge-top="!this.$store.state.isMobile ? '42' : ''"
+                  :nudge-right="!this.$store.state.isMobile ? '130' : ''"
+                  :max-width="!this.$store.state.isMobile ? '20vw' : '90vw'"
                 >
                   <template v-slot:activator="{ on, attrs }">
                     <p class="my-0">
                       <a
                         href="https://github.com/it-jhack/bughunter-debian-setup"
                         target="_blank"
-                        v-bind="attrs"
-                        v-on="on"
                       >
                         /bughunter-setup
-                        <v-icon class="info-icon">
+                        <v-icon class="info-icon" v-bind="attrs" v-on="on">
                           mdi-information-outline
                         </v-icon>
                       </a>
@@ -148,12 +144,39 @@
             </v-col>
 
             <v-col sm="6" class="hidden-xs-only">
-              <v-img
-                contain
-                src="@/assets/img/swapi-demo.gif"
-                position="top"
-                class="mt-2 mb-4"
-              />
+              <v-dialog
+                v-model="swapiDialog"
+                max-width="65vw"
+                class="m-10"
+                dark
+              >
+                <template v-slot:activator="{ on, attrs }">
+                  <a>
+                    <v-img
+                      v-bind="attrs"
+                      v-on="on"
+                      contain
+                      src="@/assets/img/swapi-demo.gif"
+                      position="top"
+                      class="mt-2 mb-4"
+                    />
+                  </a>
+                </template>
+
+                <v-card>
+                  <v-img
+                    class="d-flex justify-center"
+                    v-bind="attrs"
+                    v-on="on"
+                    contain
+                    src="@/assets/img/swapi-demo.gif"
+                    position="top"
+                    
+                    max-width="65vw"
+                    max-height="80vh"
+                  />
+                </v-card>
+              </v-dialog>
             </v-col>
           </v-row>
         </v-col>
@@ -161,6 +184,16 @@
     </v-container>
   </section>
 </template>
+
+<script>
+  export default {
+    data () {
+      return {
+        swapiDialog: false,
+      }
+    },
+  }
+</script>
 
 <style scoped>
 #projects {
@@ -193,5 +226,14 @@ a {
 a:visited {
   color: #56f031;
   text-decoration: none;
+}
+
+.item-parenthesis {
+  font-size: 18px;
+}
+
+.v-tooltip__content {
+  opacity: 1 !important;
+  background: #292929;
 }
 </style>
