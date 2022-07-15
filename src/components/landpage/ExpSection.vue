@@ -4,7 +4,9 @@
       <v-col cols="10">
         <v-row align="top" justify="center">
           <v-col cols="12" md="7" xl="9">
-            <h1 class="display-1 mt-5 mb-4 small-text-shadow">/cat my_roadmap</h1>
+            <h1 class="display-1 mt-5 mb-4 small-text-shadow">
+              /cat my_roadmap
+            </h1>
 
             <div class="d-flex justify-content-space-evenly">
               <v-btn

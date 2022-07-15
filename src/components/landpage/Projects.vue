@@ -171,7 +171,6 @@
                     contain
                     src="@/assets/img/swapi-demo.gif"
                     position="top"
-                    
                     max-width="65vw"
                     max-height="80vh"
                   />
@@ -186,13 +185,13 @@
 </template>
 
 <script>
-  export default {
-    data () {
-      return {
-        swapiDialog: false,
-      }
-    },
-  }
+export default {
+  data() {
+    return {
+      swapiDialog: false,
+    };
+  },
+};
 </script>
 
 <style scoped>
