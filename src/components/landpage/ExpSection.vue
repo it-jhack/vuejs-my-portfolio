@@ -8,7 +8,7 @@
               /cat my_roadmap
             </h1>
 
-            <div class="d-flex justify-content-space-evenly">
+            <v-row class="d-flex justify-content-space-evenly mb-4">
               <v-btn
                 rounded
                 outlined
@@ -34,7 +34,7 @@
                 <v-icon class="mr-2"> mdi-linkedin </v-icon>
                 <span>Check my Linkedin</span>
               </v-btn>
-            </div>
+            </v-row>
 
             <v-simple-table dark class="mt-5">
               <template v-slot:default>
