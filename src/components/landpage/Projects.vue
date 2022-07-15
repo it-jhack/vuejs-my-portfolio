@@ -166,8 +166,6 @@
                 <v-card>
                   <v-img
                     class="d-flex justify-center"
-                    v-bind="attrs"
-                    v-on="on"
                     contain
                     src="@/assets/img/swapi-demo.gif"
                     position="top"
