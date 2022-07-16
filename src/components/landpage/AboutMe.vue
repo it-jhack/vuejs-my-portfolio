@@ -13,10 +13,13 @@
             </v-col>
             <v-col cols="12" sm="8" class="white-color">
               <div>
-                <h2 class="light-title mb-2 mt-4">/whoami</h2>
-                <p class="p-text justified">
-                  My name is Thiago Amaral, I'm a Junior Full Stack Web
-                  Developer focused on front-end. Most of what I know I learned
+                <p class="terminal-title mb-2 mt-4">/whoami</p>
+                <p
+                  class="p-text mt-5"
+                  :class="$store.state.isMobile ? '' : 'justified'"
+                >
+                  My name is Thiago Amaral, I'm a <span class="bold">Junior Full Stack Web
+                  Developer</span> focused on Front-end. Most of what I know I learned
                   by myself online. I have a degree in System Analysis and
                   Development and also a previous Engineering degree.
                 </p>
