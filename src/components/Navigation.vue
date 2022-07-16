@@ -21,7 +21,7 @@
           </v-list-item-icon>
           <v-list-item-content>
             <v-list-item-title class="subtitile-1 small-text-shadow">
-              {{text}}
+              {{ text }}
             </v-list-item-title>
           </v-list-item-content>
         </v-list-item>
