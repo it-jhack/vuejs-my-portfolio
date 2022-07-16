@@ -6,14 +6,13 @@
           <v-row align="center" justify="center">
             <v-col cols="12" md="6" xl="8">
               <div>
-                <h1 class="mb-4 heavy-title">
-                  Hi, my name is Thiago
-                </h1>
+                <h1 class="mb-4 heavy-title">Hi, my name is Thiago</h1>
               </div>
-              <div class="p-text">
+              <div class="home-text">
                 <p>
-                  I'm an avid self-taught programmer who loves to code and to
-                  learn how stuff works.
+                  I'm an avid self-taught
+                  <span class="bold">Full Stack Developer</span>
+                  who loves to code and to learn how things work under the hood.
                 </p>
                 <p>
                   This responsive landing page was created to showcase my
@@ -57,8 +56,13 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
 section {
   position: relative;
+}
+
+.home-text {
+  font-size: 24px;
+  font-weight: 300;
 }
 </style>
