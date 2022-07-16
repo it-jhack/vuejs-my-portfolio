@@ -271,8 +271,6 @@
 </template>
 
 <style scoped>
-@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700");
-
 #about {
   background-image: url("~@/assets/img/bgDownload.jpg");
   background-attachment: fixed;
