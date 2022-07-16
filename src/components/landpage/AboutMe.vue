@@ -18,10 +18,11 @@
                   class="p-text mt-5"
                   :class="$store.state.isMobile ? '' : 'justified'"
                 >
-                  My name is Thiago Amaral, I'm a <span class="bold">Junior Full Stack Web
-                  Developer</span> focused on Front-end. Most of what I know I learned
-                  by myself online. I have a degree in System Analysis and
-                  Development and also a previous Engineering degree.
+                  My name is Thiago Amaral, I'm a brazilian
+                  <span class="bold">Junior Full Stack Web Developer</span>
+                  focused on Front-end. Most of what I know I learned by myself
+                  online. I have a degree in System Analysis and Development and
+                  also a previous Engineering degree.
                 </p>
               </div>
 
@@ -32,6 +33,24 @@
                   </v-expansion-panel-header>
                   <v-expansion-panel-content>
                     <p>
+                      Here are some examples of technologies that I have already
+                      worked with:
+                    </p>
+                    <ul class="mb-4">
+                      <li>Vue.js</li>
+                      <li>TypeScript (mostly) and JavaScript</li>
+                      <li>JSON, Rest APIs, CORS</li>
+                      <li>CSS and SCSS</li>
+                      <li>Flexbox and Grid system</li>
+                      <li>BootStrap Vue</li>
+                      <li>Node.js (also in TypeScript)</li>
+                      <li>MySQL and NoSQL</li>
+                      <li>AWS Cloud Services</li>
+                      <li>Google Tag Manager</li>
+                      <li>jQuery</li>
+                      <li>GitFlow, Agile and Scrum methodologies</li>
+                    </ul>
+                    <p>
                       I started working as a Front-end developer in June 2021,
                       and as a Full Stack developer in December of the same
                       year.
@@ -40,36 +59,24 @@
                       Although I work focused mainly on front-end, I have worked
                       in backend features and hotfixes on numerous occasions,
                       which gave me an overall good understanding of APIs, how
-                      to better structure the front-end and how to effectively
+                      to better structure the front-end, and how to effectively
                       connect it to the back-end.
                     </p>
                     <p>
                       One year of experience might not look like much, but I
-                      feel that I've seen and learned so much during this time
-                      that it doesn't feel like I've been working on this field
-                      for so little time. Some examples of what I have already
-                      worked with:
+                      feel that I've learned the equivalent of so much more
+                      during this time. Time flies by when I code because I
+                      absolutely love it. I guess that's the secret to learn
+                      quickly in little time :D
                     </p>
-                    <ul class="mb-4">
-                      <li>Vue.js</li>
-                      <li>TypeScript (mostly) and JavaScript</li>
-                      <li>CSS and SCSS</li>
-                      <li>Flexbox and Grid system</li>
-                      <li>BootStrap Vue</li>
-                      <li>Node.js (also in TypeScript)</li>
-                      <li>JSON, Rest APIs, CORS</li>
-                      <li>MySQL and NoSQL</li>
-                      <li>AWS Cloud Services</li>
-                      <li>Google Tag Manager</li>
-                      <li>jQuery</li>
-                      <li>GitFlow, Agile and Scrum methodologies</li>
-                    </ul>
                     <p>
-                      Prior to that, I have experimented with bug hunting, which
-                      gave my a good general understanding of web
-                      vulnerabilities. During this period I also developed a
-                      tool that can identify Subdomain Takeover vulnerabilities
-                      in Python.
+                      I also have experimented with
+                      <span class="bold">Bug Hunting</span>
+                      in the past, which gave me a good general understanding of
+                      web vulnerabilities. As described in the Projects section
+                      of this page, during this period I developed a tool in
+                      Python that can identify Subdomain Takeover
+                      vulnerabilities.
                     </p>
                   </v-expansion-panel-content>
                 </v-expansion-panel>
@@ -81,58 +88,60 @@
                   <v-expansion-panel-content>
                     <div>
                       Soft skills can be fairly more valuable than hard skills
-                      for a person at the beginning of a career. It takes only a
-                      few months to train a person to do complex tasks at a
-                      fairly good pace. But to change a person's character and
-                      behavior... that can take a lifetime!
+                      in the beginning of a career. It takes only a few months
+                      to train a person to do complex tasks, but to change a
+                      person's character and behavior can take a lifetime.
                     </div>
                     <div>
-                      <div class="skill-bold mt-4">PROACTIVE</div>
+                      <div class="skill-bold mt-4">Proactivity</div>
                       <div class="mt-1 ml-4">
-                        Getting the job done is not enough. Getting it well done
-                        is a must.
+                        Getting the job done is not enough, getting it well done
+                        is a must. This is an important skill in order to avoid
+                        technical debt which can generate the awful feeling of
+                        being always chasing one's own tail.
                       </div>
                     </div>
                     <div>
-                      <div class="skill-bold mt-4">TIME MANAGEMENT</div>
+                      <div class="skill-bold mt-4">Time Management</div>
                       <div class="mt-1 ml-4">
-                        Time is the most valuable resource there is. There is only
-                        a finite amount and we cannot even know for sure how much
-                        of it we got left. I constantly measure and evaluate how I
-                        spend my time, seeking what can bring me the best
-                        cost-benefit in the long run, without sacrificing physical
-                        and mental health.
+                        Time is the most valuable resource there is. There is
+                        only a finite amount and we don't even know for sure how
+                        much of it we got left. I constantly measure and
+                        evaluate how I spend my time, seeking what can bring me
+                        the best cost-benefit in the long run.
                       </div>
                     </div>
                     <div>
-                      <div class="skill-bold mt-4">FRIENDLY</div>
-                      <div class="mt-1 ml-4">
-                        People consider me to be very friendly, even for brazilian
-                        standards 😁
-                      </div>
-                    </div>
-                    <div>
-                      <div class="skill-bold mt-4">QUICK LEARNER</div>
+                      <div class="skill-bold mt-4">Quick Learning</div>
                       <div class="mt-1 ml-4">
                         I know that stating this can be very cliché, but I've
-                        actually been complimented for being able to quickly adapt
-                        to tools and languages I've never used before.
+                        actually been complimented for being able to quickly
+                        adapt to tools and languages I've never used before.
                       </div>
                     </div>
                     <div>
-                      <div class="skill-bold mt-4">SELF-TAUGHT</div>
+                      <div class="skill-bold mt-4">Self-taught</div>
                       <div class="mt-1 ml-4">
-                        There is a vast magnitude of incredible content available
-                        online. It's essential for a developer to be able to find
-                        solutions independently, and being able to apply them to
-                        your project and context.
+                        There is a vast magnitude of incredible content
+                        available online. It's essential for a developer to be
+                        able to find similar solutions independently, and to
+                        apply them to your context and project.
+                      </div>
+                    </div>
+                    <div>
+                      <div class="skill-bold mt-4">Friendliness</div>
+                      <div class="mt-1 ml-4">
+                        People consider me to be very friendly, even for
+                        brazilian standards 😁
                       </div>
                     </div>
                   </v-expansion-panel-content>
                 </v-expansion-panel>
 
                 <v-expansion-panel>
-                  <v-expansion-panel-header class="skills-dropdown"> Idioms </v-expansion-panel-header>
+                  <v-expansion-panel-header class="skills-dropdown">
+                    Idioms
+                  </v-expansion-panel-header>
                   <v-expansion-panel-content>
                     <div class="skills">
                       <p class="idiom-title">
@@ -250,17 +259,6 @@
                     </div>
                   </v-expansion-panel-content>
                 </v-expansion-panel>
-                <v-expansion-panel>
-                  <v-expansion-panel-header class="skills-dropdown"> Hobbies </v-expansion-panel-header>
-                  <v-expansion-panel-content>
-                    Some of my hobbies are working out, watching good movies and
-                    I absolutely love to improve my coding skills by building
-                    small side projects and dismantling open-source code to see
-                    how they work. From time to time, I also experiment with bug
-                    hunting, as IT security very much picks my interest and
-                    ethical (authorized) hacking seems like fun :&#41;
-                  </v-expansion-panel-content>
-                </v-expansion-panel>
               </v-expansion-panels>
             </v-col>
           </v-row>
@@ -304,7 +302,6 @@ html {
 .skills-dropdown {
   font-size: 16px;
 }
-
 
 /* Skill Bars */
 .skills {

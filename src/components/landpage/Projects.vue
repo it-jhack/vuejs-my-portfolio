@@ -135,12 +135,12 @@
                     </p>
                   </template>
                   <span>
-                    A Bash script (linux programming language) I created to
-                    install essential tools for Bug Bounty Hunters on a fresh
-                    Debian Operational System.
+                    A Bash script (kind of Linux programming language) I created
+                    to automate the installation of essential tools for Bug
+                    Bounty Hunters on a fresh Debian Operational System.
                   </span>
                 </v-tooltip>
-              </h1>
+              </div>
             </v-col>
 
             <v-col sm="6" class="hidden-xs-only">
