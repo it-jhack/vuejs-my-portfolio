@@ -4,11 +4,9 @@
       <v-col cols="10">
         <v-row justify="center">
           <v-col cols="12" md="7" xl="9">
-            <h1 class="display-1 mt-5 mb-4 small-text-shadow">
-              /cat my_roadmap
-            </h1>
+            <div class="terminal-title mt-5 mb-4">/cat my_roadmap</div>
 
-            <v-row class="d-flex justify-content-space-evenly mb-4">
+            <v-row class="d-flex justify-content-space-evenly mt-6 mb-4">
               <v-btn
                 rounded
                 outlined
@@ -36,7 +34,7 @@
               </v-btn>
             </v-row>
 
-            <v-simple-table dark class="mt-5">
+            <v-simple-table dark class="mt-7">
               <template v-slot:default>
                 <tbody>
                   <tr v-for="item in experiences" :key="item.period">
@@ -114,9 +112,5 @@ export default {
 #experience {
   width: 100%;
   background-color: #292929;
-}
-
-h1 {
-  color: white;
 }
 </style>
