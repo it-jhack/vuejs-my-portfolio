@@ -5,12 +5,12 @@
         <v-col cols="10">
           <v-row class="mt-5">
             <v-col cols="12" sm="6" class="text-left">
-              <h1 class="font-weight-light white-color display-2 mb-2">
-                /git clone projects.git
-              </h1>
-              <h1 class="font-weight-light white-color">
-                Make sure to checkout my Projects and Gists on GitHub
-                @it-jhack<br />
+              <p class="terminal-title mb-2">/git clone projects.git</p>
+              <div class="p-text white-color mt-5">
+                <p>
+                  Make sure to checkout my Projects and Gists on GitHub
+                  @it-jhack
+                </p>
                 <v-btn
                   rounded
                   outlined
@@ -18,9 +18,9 @@
                   target="_blank"
                   large
                   color="white"
-                  class="mt-5"
+                  class="mt-2"
                 >
-                  <v-icon class="mr-2"> mdi-github </v-icon>
+                  <v-icon class="mr-2">mdi-github</v-icon>
                   GitHub
                 </v-btn>
 
