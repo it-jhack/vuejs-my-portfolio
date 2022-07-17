@@ -130,7 +130,7 @@ export default {
   color: #ffffff;
   font-family: Roboto Mono !important;
   font-weight: 500;
-  font-size: 48px;
+  font-size: 40px;
   line-height: 1em;
 }
 
