@@ -8,19 +8,20 @@
               <div class="terminal-title mt-5">/ssh my_contact</div>
               <div class="p-text white-color mt-8 text-align-justify">
                 Contact me and I will be glad to further discuss any related
-                topics                
+                topics
               </div>
             </v-col>
           </v-row>
           <v-row>
             <v-col align="center">
               <v-btn
+                id="whatsapp-btn"
                 class="mt-5 mb-5"
                 color="#299e55"
                 href="https://api.whatsapp.com/send?phone=5514998416457"
                 target="_blank"
               >
-                <v-icon class="white-color" style="color: white">mdi-whatsapp</v-icon>
+                <v-icon class="white-color">mdi-whatsapp</v-icon>
                 <span class="white-color">Whatsapp</span>
               </v-btn>
             </v-col>
@@ -46,5 +47,9 @@
   height: 3rem;
   width: 100%;
   overflow: hidden;
+}
+
+#whatsapp-btn {
+  color: #ffffff !important;
 }
 </style>
