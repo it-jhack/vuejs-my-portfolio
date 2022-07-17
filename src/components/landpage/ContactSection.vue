@@ -5,22 +5,25 @@
         <v-col cols="10">
           <v-row justify="center">
             <v-col cols="12" sm="5" class="v-margin-bottom">
-              <h1 class="font-weight-light display-1">/ping my_contact</h1>
-              <h3 class="font-weight-light mt-3">
+              <div class="terminal-title mt-5">/ssh my_contact</div>
+              <div class="p-text white-color mt-8 text-align-justify">
                 Contact me and I will be glad to further discuss any related
                 topics
-              </h3>
-              <h3 class="font-weight-light mt-3"></h3>
-
-              <br />
+              </div>
+            </v-col>
+          </v-row>
+          <v-row>
+            <v-col align="center">
               <v-btn
-                class="success no-uppercase"
+                id="whatsapp-btn"
+                class="mt-5 mb-5"
+                color="#299e55"
                 href="https://api.whatsapp.com/send?phone=5514998416457"
                 target="_blank"
-                ><div class="mx-2"><v-icon>mdi-whatsapp</v-icon></div>
-                Whatsapp</v-btn
               >
-              <br /><br />
+                <v-icon class="white-color">mdi-whatsapp</v-icon>
+                <span class="white-color">Whatsapp</span>
+              </v-btn>
             </v-col>
           </v-row>
         </v-col>
@@ -34,7 +37,7 @@
 
 <style scoped>
 #contact {
-  background-color: #f4f7f5;
+  background-color: #00010f;
 }
 
 .svg-border-waves .v-image {
@@ -45,13 +48,8 @@
   width: 100%;
   overflow: hidden;
 }
-</style>
 
-<script>
-export default {
-  data: () => ({
-    icons: ["fa-facebook", "fa-twitter", "fa-linkedin", "fa-instagram"],
-    valid: true,
-  }),
-};
-</script>
+#whatsapp-btn {
+  color: #ffffff !important;
+}
+</style>
