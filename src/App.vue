@@ -104,6 +104,10 @@ export default {
   display: flex;
 }
 
+.text-align-justify {
+  text-align: justify;
+}
+
 .justify-content-space-evenly {
   justify-content: space-evenly;
 }
