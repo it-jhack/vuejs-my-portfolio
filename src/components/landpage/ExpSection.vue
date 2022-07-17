@@ -112,5 +112,6 @@ export default {
 #experience {
   width: 100%;
   background-color: #292929;
+  overflow-x: hidden !important;
 }
 </style>
