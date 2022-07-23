@@ -4,7 +4,7 @@
     <v-main class="pt-0">
       <home />
       <about />
-      <projects class="mb-3" />
+      <projects />
       <experience />
       <contact />
     </v-main>

@@ -1,5 +1,5 @@
 <template>
-  <section id="projects">
+  <section id="projects" class="pb-3">
     <v-container fluid>
       <v-row align="center" justify="center">
         <v-col cols="10">
