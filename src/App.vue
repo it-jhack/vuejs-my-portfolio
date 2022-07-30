@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-app id="main-app">
     <navigation :color="color" :flat="flat" />
     <v-main class="pt-0">
       <home />
@@ -8,6 +8,21 @@
       <experience />
       <contact />
     </v-main>
+    <v-scale-transition v-if="!$store.state.isMobile">
+      <v-btn
+        fab
+        v-show="fab"
+        v-scroll="onScroll"
+        dark
+        fixed
+        bottom
+        right
+        color="secondary"
+        @click="toTop"
+      >
+        <v-icon>mdi-arrow-up</v-icon>
+      </v-btn>
+    </v-scale-transition>
     <myfooter />
   </v-app>
 </template>
@@ -32,6 +47,46 @@ export default {
     projects,
     experience,
     contact,
+  },
+
+  data: () => ({
+    fab: null,
+    color: "",
+    flat: null,
+  }),
+
+  created() {
+    const top = window.pageYOffset || 0;
+    if (top <= 30) {
+      this.color = "transparent";
+      this.flat = true;
+    }
+  },
+
+  watch: {
+    fab(value) {
+      if (value) {
+        this.color = "secondary";
+        this.flat = false;
+      } else {
+        this.color = "transparent";
+        this.flat = true;
+      }
+    },
+  },
+
+  methods: {
+    onScroll(e) {
+      setTimeout(() => {
+        if (typeof window === "undefined") return;
+        const top = window.pageYOffset || e.target.scrollTop || 0;
+        this.fab = top > 30;
+        
+      }, 125);
+    },
+    toTop() {
+      this.$vuetify.goTo(0);
+    },
   },
 };
 </script>
