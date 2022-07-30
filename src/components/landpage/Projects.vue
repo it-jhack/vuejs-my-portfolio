@@ -1,5 +1,9 @@
 <template>
-  <section id="projects" class="pb-3">
+  <section
+    id="projects"
+    class="pb-3"
+    :class="$store.state.isMobile ? 'mobile-bg' : 'desktop-bg'"
+  >
     <v-container fluid>
       <v-row align="center" justify="center">
         <v-col cols="10">
@@ -93,17 +97,17 @@
                   :max-width="!this.$store.state.isMobile ? '20vw' : '90vw'"
                 >
                   <template v-slot:activator="{ on, attrs }">
-                    <p class="my-0">
+                    <div class="my-0">
                       <a
                         href="https://github.com/it-jhack/subsort"
                         target="_blank"
                       >
                         /subsort
-                        <v-icon class="info-icon" v-bind="attrs" v-on="on">
-                          mdi-information-outline
-                        </v-icon>
                       </a>
-                    </p>
+                      <v-icon class="info-icon" v-bind="attrs" v-on="on">
+                        mdi-information-outline
+                      </v-icon>
+                    </div>
                   </template>
                   <span>
                     An algorithm I developed in Python, as part of the Subtaker
@@ -122,17 +126,17 @@
                   :max-width="!this.$store.state.isMobile ? '20vw' : '90vw'"
                 >
                   <template v-slot:activator="{ on, attrs }">
-                    <p class="my-0">
+                    <div class="my-0">
                       <a
                         href="https://github.com/it-jhack/bughunter-debian-setup"
                         target="_blank"
                       >
                         /bughunter-setup
-                        <v-icon class="info-icon" v-bind="attrs" v-on="on">
-                          mdi-information-outline
-                        </v-icon>
                       </a>
-                    </p>
+                      <v-icon class="info-icon" v-bind="attrs" v-on="on">
+                        mdi-information-outline
+                      </v-icon>
+                    </div>
                   </template>
                   <span>
                     A Bash script (kind of Linux programming language) I created
@@ -194,17 +198,26 @@ export default {
 
 <style scoped>
 #projects {
-  background-image: url("~@/assets/img/bgDownload.jpg");
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  /* background-size: cover;
+  background-position: center; */
   height: 600px;
 }
 
 #projects .container,
 #projects .row {
   height: 100%;
+}
+
+.desktop-bg {
+  background-image: url("~@/assets/img/bgDownload.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.mobile-bg {
+  background-color: #02000d;
 }
 
 .rounded-corners {

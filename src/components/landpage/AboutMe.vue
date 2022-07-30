@@ -1,5 +1,8 @@
 <template>
-  <section id="about">
+  <section
+    id="about"
+    :class="$store.state.isMobile ? 'mobile-bg' : 'desktop-bg'"
+  >
     <v-container fluid>
       <v-row align="center" justify="center">
         <v-col cols="10">
@@ -269,17 +272,26 @@
 </template>
 
 <style scoped>
-#about {
-  background-image: url("~@/assets/img/bgDownload.jpg");
-  background-attachment: fixed;
-  background-repeat: no-repeat;
+/* #about {
   background-size: cover;
   background-position: center;
-}
+} */
 
 #about .container,
 #about .row {
   height: 100%;
+}
+
+.desktop-bg {
+  background-image: url("~@/assets/img/bgDownload.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.mobile-bg {
+  background-color: #02000d;
 }
 
 .rounded-corners {
