@@ -37,11 +37,9 @@ export default {
 </script>
 
 <style scoped>
-.v-main {
-  background-image: url("~@/assets/img/bgMain.png");
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
+#main-app {
+  overflow-x: hidden !important;
+  background-color: #02000d !important;
 }
 </style>
 
