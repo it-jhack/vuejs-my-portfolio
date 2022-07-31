@@ -2,6 +2,7 @@
   <v-app id="main-app">
     <navigation :color="color" :flat="flat" />
     <v-main class="pt-0">
+      <WebglFluidSim />
       <home />
       <about />
       <projects />
@@ -28,6 +29,7 @@
 </template>
 
 <script>
+import WebglFluidSim from "@/components/landpage/WebglFluidSim.vue";
 import navigation from "./components/Navigation";
 import myfooter from "./components/Footer";
 import home from "./components/landpage/HomeSection";
@@ -40,6 +42,7 @@ export default {
   name: "App",
 
   components: {
+    WebglFluidSim,
     navigation,
     myfooter,
     home,
@@ -81,7 +84,6 @@ export default {
         if (typeof window === "undefined") return;
         const top = window.pageYOffset || e.target.scrollTop || 0;
         this.fab = top > 30;
-        
       }, 125);
     },
     toTop() {
