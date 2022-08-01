@@ -3,8 +3,8 @@
     <navigation :color="color" :flat="flat" />
     <v-main class="pt-0">
       <WebglFluidSim />
-      <home />
-      <about />
+      <!-- <home /> -->
+      <about style="margin-top: 100vh;" />
       <projects />
       <experience />
       <contact />
@@ -32,7 +32,7 @@
 import WebglFluidSim from "@/components/landpage/WebglFluidSim.vue";
 import navigation from "./components/Navigation";
 import myfooter from "./components/Footer";
-import home from "./components/landpage/HomeSection";
+// import home from "./components/landpage/HomeSection";
 import about from "./components/landpage/AboutMe";
 import projects from "./components/landpage/Projects";
 import experience from "./components/landpage/ExpSection";
@@ -42,10 +42,10 @@ export default {
   name: "App",
 
   components: {
-    WebglFluidSim,
     navigation,
     myfooter,
-    home,
+    WebglFluidSim,
+    // home,
     about,
     projects,
     experience,
