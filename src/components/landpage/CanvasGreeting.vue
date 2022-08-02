@@ -59,7 +59,8 @@ canvas {
 #greeting {
   position: absolute;
   margin-top: 25vh;
-  pointer-events: none
+  pointer-events: none;
+  text-shadow: 1px 1px 1px #000000;
 }
 
 canvas {
@@ -69,6 +70,7 @@ canvas {
 
 .v-btn {
   pointer-events: auto !important;
+  text-shadow: 1px 1px 1px #000000;
 }
 
 .greeting-text {
@@ -77,6 +79,6 @@ canvas {
 }
 
 .greeting-margin {
-  margin-left: 8vw
+  margin-left: 8vw;
 }
 </style>
