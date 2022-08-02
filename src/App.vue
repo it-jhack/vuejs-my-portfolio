@@ -95,6 +95,10 @@ export default {
   overflow-x: hidden !important;
   background-color: #02000d !important;
 }
+
+#about {
+  margin-top: 100vh;
+}
 </style>
 
 <style lang="scss">
