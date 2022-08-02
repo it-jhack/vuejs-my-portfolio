@@ -66,7 +66,7 @@ export default {
   watch: {
     fab(value) {
       if (value) {
-        this.color = "secondary";
+        this.color = "#000000cc";
         this.flat = false;
       } else {
         this.color = "transparent";
