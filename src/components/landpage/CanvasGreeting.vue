@@ -12,11 +12,11 @@
             <p>
               I'm an avid self-taught
               <span class="bold">Full Stack Developer</span>
-              who loves to code and to learn how things work under the hood.
+              who loves to code and to learn how things work.
             </p>
             <p>
               This responsive landing page was created to showcase my portfolio
-              and developing skills.
+              and code developing skills.
             </p>
           </div>
           <v-btn
