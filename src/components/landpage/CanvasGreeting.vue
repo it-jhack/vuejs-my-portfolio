@@ -78,7 +78,66 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+@media (max-width: 320px) {
+  .greeting-margin {
+    margin-top: -20vh !important;
+    margin-left: 2vw !important;
+  }
+  .heavy-title {
+    font-size: 28px !important;
+    font-weight: 500 !important;
+  }
+  .greeting-text {
+    font-size: 18px !important;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 360px) {
+  .greeting-margin {
+    margin-top: -20vh !important;
+    margin-left: 2vw !important;
+  }
+  .heavy-title {
+    font-size: 36px !important;
+    font-weight: 500 !important;
+  }
+  .greeting-text {
+    font-size: 22px !important;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 384px) {
+  .greeting-margin {
+    margin-top: -10vh !important;
+    margin-left: 2vw !important;
+  }
+  .heavy-title {
+    font-size: 36px !important;
+    font-weight: 500 !important;
+  }
+  .greeting-text {
+    font-size: 22px !important;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 450px) {
+  .greeting-margin {
+    margin-top: -18vh !important;
+    margin-left: 2vw !important;
+  }
+}
+
+@media (min-width: 450px) and (max-width: 768px) {
+  #greeting {
+    margin-top: 13vh !important;
+  }
+
+  .greeting-margin {
+    margin-left: 2vw !important;
+  }
+}
+
 #canvas-greeting {
   position: relative;
 }
