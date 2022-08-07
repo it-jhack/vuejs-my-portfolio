@@ -38,8 +38,8 @@
               <template v-slot:default>
                 <tbody>
                   <tr v-for="item in experiences" :key="item.period">
-                    <td>{{ item.period }}</td>
-                    <td>{{ item.experience }}</td>
+                    <td class="pt-2 pb-2">{{ item.period }}</td>
+                    <td class="pt-2 pb-2">{{ item.experience }}</td>
                   </tr>
                 </tbody>
               </template>
