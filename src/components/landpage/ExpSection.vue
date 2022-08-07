@@ -68,24 +68,34 @@ export default {
         {
           period: "2021 Dec — Present",
           experience:
-            "Full Stack Web Developer at WeClever.co (focused on Front-end). \
-            Using Vue.js, TypeScript, Node.js, CSS, MySQL and AWS cloud services on a daily basis",
+            "Full Stack Web Developer (focused on Front-end) at WeClever.co, a \
+            fast-paced, quick-evolving B2B Brazilian startup. Here I enhanced \
+            my skills in Vue.js, TypeScript, Node.js, CSS, MySQL and AWS cloud \
+            services on a daily basis",
         },
         {
-          period: "2019 Feb — 2021 Dec",
+          period: "2021 Jun — 2021 Dec",
+          experience:
+            "Front-end Developer Intern at FlowDev Systems, a company that \
+            develops small custom commercial web systems. While working here, I \
+            developed my skills using Vue.js, JavaScript, CSS, Vuetify, and \
+            calling APIs using Axios and",
+        },
+        {
+          period: "2019 — 2021",
           experience: "Systems Analysis and Development, UNIP (University)",
         },
         {
-          period: "2017 Mar — 2020 Dec",
+          period: "2017 — 2020",
           experience: "Administrative Assistant",
         },
         {
-          period: "2015 Apr — Jul",
+          period: "2015",
           experience:
             "Business Intelligence Assistant intern at FPInnovations - Vancouver, Canada.",
         },
         {
-          period: "2014 Sep — 2015 Apr",
+          period: "2014 — 2015",
           experience:
             "Internship Scholarship at University of British Columbia (UBC) - Vancouver, Canada",
         },
