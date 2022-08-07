@@ -1,7 +1,7 @@
 <template>
   <section
     id="projects"
-    class="pb-3"
+    class="pb-3 mb-xl-12"
     :class="$store.state.isMobile ? 'mobile-bg' : 'desktop-bg'"
   >
     <v-container fluid>
