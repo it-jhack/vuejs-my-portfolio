@@ -5,7 +5,6 @@
       app
       temporary
       dark
-      src="@/assets/img/big_data1_vertical.jpg"
     >
       <v-divider />
 
