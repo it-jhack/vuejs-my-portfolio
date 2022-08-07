@@ -207,7 +207,7 @@ export default {
 }
 
 .desktop-bg {
-  background-image: url("~@/assets/img/bgDownload.jpg");
+  background-image: url("~@/assets/img/codedesk1.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
