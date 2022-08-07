@@ -1,11 +1,6 @@
 <template>
   <div>
-    <v-navigation-drawer
-      v-model="drawer"
-      app
-      temporary
-      dark
-    >
+    <v-navigation-drawer v-model="drawer" app temporary dark>
       <v-divider />
 
       <v-list dense>
@@ -24,7 +19,7 @@
             </v-list-item-title>
           </v-list-item-content>
         </v-list-item>
-        
+
         <a
           href="https://drive.google.com/file/d/1BH-3ObjuuO5fkv09Rv5ixuop7oLxaoKJ/view?usp=sharing"
           target="_blank"
@@ -79,7 +74,7 @@
           target="_blank"
           class="no-anchor-text-decoration"
         >
-          <v-btn rounded outlined >
+          <v-btn rounded outlined>
             <v-icon>mdi-download</v-icon>
             <span class="mr-2 small-text-shadow">Resume</span>
           </v-btn>
