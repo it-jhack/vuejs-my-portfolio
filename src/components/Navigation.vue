@@ -119,7 +119,7 @@ export default {
       ["mdi-information-outline", "About", "#about"],
       ["mdi-download-box-outline", "Projects", "#projects"],
       ["mdi-briefcase", "Experience", "#experience"],
-      ["mdi-email-outline", "Contact Me", "#contact"],
+      ["mdi-email-outline", "Contact", "#contact"],
     ],
   }),
   props: {
