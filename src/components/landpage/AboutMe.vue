@@ -7,7 +7,7 @@
       <v-row align="center" justify="center">
         <v-col cols="10">
           <v-row justify="center">
-            <v-col sm="4" class="hidden-xs-only">
+            <v-col sm="4">
               <v-img
                 src="@/assets/img/thiago.jpg"
                 class="d-block ml-auto mr-auto mt-4 rounded-corners"
@@ -272,18 +272,13 @@
 </template>
 
 <style scoped>
-/* #about {
-  background-size: cover;
-  background-position: center;
-} */
-
 #about .container,
 #about .row {
   height: 100%;
 }
 
 .desktop-bg {
-  background-image: url("~@/assets/img/bgDownload.jpg");
+  background-image: url("~@/assets/img/codedesk1.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;

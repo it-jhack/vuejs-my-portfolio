@@ -1,12 +1,12 @@
 <template>
   <v-app id="main-app">
-    <navigation :color="color" :flat="flat" />
+    <Navigation :color="color" :flat="flat" />
     <v-main class="pt-0">
-      <home />
-      <about />
-      <projects />
-      <experience />
-      <contact />
+      <CanvasGreeting />
+      <About id="about" />
+      <Projects />
+      <Experience />
+      <Contact />
     </v-main>
     <v-scale-transition v-if="!$store.state.isMobile">
       <v-btn
@@ -23,30 +23,30 @@
         <v-icon>mdi-arrow-up</v-icon>
       </v-btn>
     </v-scale-transition>
-    <myfooter />
+    <MyFooter />
   </v-app>
 </template>
 
 <script>
-import navigation from "./components/Navigation";
-import myfooter from "./components/Footer";
-import home from "./components/landpage/HomeSection";
-import about from "./components/landpage/AboutMe";
-import projects from "./components/landpage/Projects";
-import experience from "./components/landpage/ExpSection";
-import contact from "./components/landpage/ContactSection";
+import Navigation from "./components/Navigation";
+import MyFooter from "./components/Footer";
+import CanvasGreeting from "@/components/landpage/CanvasGreeting.vue";
+import About from "./components/landpage/AboutMe";
+import Projects from "./components/landpage/Projects";
+import Experience from "./components/landpage/ExpSection";
+import Contact from "./components/landpage/ContactSection";
 
 export default {
   name: "App",
 
   components: {
-    navigation,
-    myfooter,
-    home,
-    about,
-    projects,
-    experience,
-    contact,
+    Navigation,
+    MyFooter,
+    CanvasGreeting,
+    About,
+    Projects,
+    Experience,
+    Contact,
   },
 
   data: () => ({
@@ -66,7 +66,7 @@ export default {
   watch: {
     fab(value) {
       if (value) {
-        this.color = "secondary";
+        this.color = "#000000cc";
         this.flat = false;
       } else {
         this.color = "transparent";
@@ -81,7 +81,6 @@ export default {
         if (typeof window === "undefined") return;
         const top = window.pageYOffset || e.target.scrollTop || 0;
         this.fab = top > 30;
-        
       }, 125);
     },
     toTop() {
@@ -95,6 +94,10 @@ export default {
 #main-app {
   overflow-x: hidden !important;
   background-color: #02000d !important;
+}
+
+#about {
+  margin-top: 100vh;
 }
 </style>
 

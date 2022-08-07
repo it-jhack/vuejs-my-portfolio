@@ -1,7 +1,7 @@
 <template>
   <section
     id="projects"
-    class="pb-3"
+    class="pb-3 mb-xl-12"
     :class="$store.state.isMobile ? 'mobile-bg' : 'desktop-bg'"
   >
     <v-container fluid>
@@ -54,12 +54,12 @@
                     </div>
                   </template>
                   <span>
-                    Project I did mid 2021 uniting front-end and back-end. The
-                    front-end fetches characters from Star Wars Api (Swapi),
-                    processes the response JSON object and returns which Star
-                    Wars movies the selected character has been in. If available
-                    as an environment variable it also uses Bing search engine
-                    to search for the character and shows the first image result
+                    Project I did mid 2021. The front-end fetches characters
+                    from Star Wars Api (Swapi), processes the response JSON
+                    object and returns which movies the selected character has
+                    been in. If you provide an appropriate secret key for Bing
+                    Search Engine as an environment variable, it will also
+                    display the first image result for each character
                   </span>
                 </v-tooltip>
 
@@ -85,7 +85,7 @@
                   </template>
                   <span>
                     Subtaker is a security penetration tool I developed in
-                    Python to help find Subdomain Takeover vulnerabilities
+                    Python to help find 'Subdomain Takeover' vulnerabilities
                   </span>
                 </v-tooltip>
 
@@ -111,7 +111,7 @@
                   </template>
                   <span>
                     An algorithm I developed in Python, as part of the Subtaker
-                    project, that removes subdomain redundancies and returns an
+                    project. It removes subdomain redundancies and returns an
                     optimized list. It saves a lot of time and computing
                     resources when parsing through large subdomain/DNS database
                     files
@@ -139,7 +139,7 @@
                     </div>
                   </template>
                   <span>
-                    A Bash script (kind of Linux programming language) I created
+                    A terminal Bash Script (programming in Linux) that I created
                     to automate the installation of essential tools for Bug
                     Bounty Hunters on a fresh Debian Operational System.
                   </span>
@@ -196,10 +196,8 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 #projects {
-  /* background-size: cover;
-  background-position: center; */
   height: 600px;
 }
 
@@ -209,7 +207,7 @@ export default {
 }
 
 .desktop-bg {
-  background-image: url("~@/assets/img/bgDownload.jpg");
+  background-image: url("~@/assets/img/codedesk1.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;

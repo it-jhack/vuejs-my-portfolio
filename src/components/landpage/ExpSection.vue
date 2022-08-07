@@ -4,7 +4,7 @@
       <v-col cols="10">
         <v-row justify="center">
           <v-col cols="12" md="7" xl="9">
-            <div class="terminal-title mt-5 mb-4">/cat my_roadmap</div>
+            <div class="terminal-title mt-5 mb-4">/cat my_journey</div>
 
             <v-row class="d-flex justify-content-space-evenly mt-6 mb-4">
               <v-btn
@@ -38,8 +38,8 @@
               <template v-slot:default>
                 <tbody>
                   <tr v-for="item in experiences" :key="item.period">
-                    <td>{{ item.period }}</td>
-                    <td>{{ item.experience }}</td>
+                    <td class="pt-2 pb-2">{{ item.period }}</td>
+                    <td class="pt-2 pb-2">{{ item.experience }}</td>
                   </tr>
                 </tbody>
               </template>
@@ -68,24 +68,34 @@ export default {
         {
           period: "2021 Dec — Present",
           experience:
-            "Full Stack Web Developer at WeClever.co (focused on Front-end). \
-            Using Vue.js, TypeScript, Node.js, CSS, MySQL and AWS cloud services on a daily basis",
+            "Full Stack Web Developer (focused on Front-end) at WeClever.co, a \
+            fast-paced, quick-evolving B2B Brazilian startup. Here I enhanced \
+            my skills in Vue.js, TypeScript, Node.js, CSS, MySQL and AWS cloud \
+            services on a daily basis",
         },
         {
-          period: "2019 Feb — 2021 Dec",
+          period: "2021 Jun — 2021 Dec",
+          experience:
+            "Front-end Developer Intern at FlowDev Systems, a company that \
+            develops small custom commercial web systems. While working here, I \
+            developed my skills using Vue.js, JavaScript, CSS, Vuetify, and \
+            calling APIs using Axios and",
+        },
+        {
+          period: "2019 — 2021",
           experience: "Systems Analysis and Development, UNIP (University)",
         },
         {
-          period: "2017 Mar — 2020 Dec",
+          period: "2017 — 2020",
           experience: "Administrative Assistant",
         },
         {
-          period: "2015 Apr — Jul",
+          period: "2015",
           experience:
             "Business Intelligence Assistant intern at FPInnovations - Vancouver, Canada.",
         },
         {
-          period: "2014 Sep — 2015 Apr",
+          period: "2014 — 2015",
           experience:
             "Internship Scholarship at University of British Columbia (UBC) - Vancouver, Canada",
         },
