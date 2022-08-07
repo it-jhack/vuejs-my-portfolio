@@ -196,10 +196,8 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 #projects {
-  /* background-size: cover;
-  background-position: center; */
   height: 600px;
 }
 
