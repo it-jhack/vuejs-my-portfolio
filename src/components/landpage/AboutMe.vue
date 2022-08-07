@@ -272,18 +272,13 @@
 </template>
 
 <style scoped>
-/* #about {
-  background-size: cover;
-  background-position: center;
-} */
-
 #about .container,
 #about .row {
   height: 100%;
 }
 
 .desktop-bg {
-  background-image: url("~@/assets/img/bgDownload.jpg");
+  background-image: url("~@/assets/img/codedesk1.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
