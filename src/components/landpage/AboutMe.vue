@@ -21,11 +21,13 @@
                   class="p-text mt-5"
                   :class="$store.state.isMobile ? '' : 'justified'"
                 >
-                  My name is Thiago Amaral, I'm a brazilian
-                  <span class="bold">Junior Full Stack Web Developer</span>
-                  focused on Front-end. Most of what I know I learned by myself
-                  online. I have a degree in System Analysis and Development and
-                  also a previous Engineering degree.
+                  My name is Thiago Amaral, I'm a Brazilian
+                  <span class="bold">Front-end Developer</span>, but sometimes I
+                  morph into Full Stack mode 😄. I've been studying programming
+                  on my own since 2018 and have been working professionally on
+                  front-end development since mid-2021. I have a degree in
+                  Systems Analysis and Development and also a previous
+                  Engineering degree.
                 </p>
               </div>
 
@@ -54,9 +56,9 @@
                       <li>GitFlow, Agile and Scrum methodologies</li>
                     </ul>
                     <p>
-                      I started working as a Front-end developer in June 2021,
-                      and as a Full Stack developer in December of the same
-                      year.
+                      I started working as an intern in Front-end development in
+                      June 2021, and was effectively hired in December of the
+                      same year.
                     </p>
                     <p>
                       Although I work focused mainly on front-end, I have worked
@@ -91,17 +93,18 @@
                   <v-expansion-panel-content>
                     <div>
                       Soft skills can be fairly more valuable than hard skills
-                      in the beginning of a career. It takes only a few months
+                      at the beginning of a career. It takes only a few months
                       to train a person to do complex tasks, but to change a
                       person's character and behavior can take a lifetime.
                     </div>
                     <div>
                       <div class="skill-bold mt-4">Proactivity</div>
                       <div class="mt-1 ml-4">
-                        Getting the job done is not enough, getting it well done
-                        is a must. This is an important skill in order to avoid
-                        technical debt which can generate the awful feeling of
-                        being always chasing one's own tail.
+                        I try to proactively plan before execution. Getting all
+                        jobs done in any way as fast as possible is a trap that
+                        will quickly build up technical debt. On the other hand,
+                        planning too much can be even worse. Balance between
+                        proactive planning and execution is key.
                       </div>
                     </div>
                     <div>
@@ -126,16 +129,16 @@
                       <div class="skill-bold mt-4">Self-taught</div>
                       <div class="mt-1 ml-4">
                         There is a vast magnitude of incredible content
-                        available online. It's essential for a developer to be
-                        able to find similar solutions independently, and to
-                        apply them to your context and project.
+                        available online. A developer should be able to find
+                        similar solutions independently, and apply them to
+                        context of the project.
                       </div>
                     </div>
                     <div>
                       <div class="skill-bold mt-4">Friendliness</div>
                       <div class="mt-1 ml-4">
                         People consider me to be very friendly, even for
-                        brazilian standards 😁
+                        Brazilian standards 😁
                       </div>
                     </div>
                   </v-expansion-panel-content>

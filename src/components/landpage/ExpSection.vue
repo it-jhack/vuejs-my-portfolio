@@ -68,10 +68,11 @@ export default {
         {
           period: "2021 Dec — Present",
           experience:
-            "Full Stack Web Developer (focused on Front-end) at WeClever.co, a \
-            fast-paced, quick-evolving B2B Brazilian startup. Here I enhanced \
-            my skills in Vue.js, TypeScript, Node.js, CSS, MySQL and AWS cloud \
-            services on a daily basis",
+            "Front-end Web Developer at WeClever.co, a fast-paced,\
+            quick-evolving B2B Brazilian startup. Sometimes I also \
+            work in the Back-end. Here I enhanced my skills in \
+            Vue.js, TypeScript, Node.js, CSS, MySQL \
+            and AWS cloud services.",
         },
         {
           period: "2021 Jun — 2021 Dec",
