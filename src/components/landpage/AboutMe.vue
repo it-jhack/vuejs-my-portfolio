@@ -145,9 +145,7 @@
                 </v-expansion-panel>
 
                 <v-expansion-panel>
-                  <v-expansion-panel-header>
-                    Idioms
-                  </v-expansion-panel-header>
+                  <v-expansion-panel-header> Idioms </v-expansion-panel-header>
                   <v-expansion-panel-content>
                     <div>
                       <p class="idiom-title">
@@ -165,9 +163,7 @@
                           src="@/assets/img/us-icon.png"
                           class="idiom-flag"
                         />
-                        <span class="ml-2">
-                          English (Fluent)
-                        </span>
+                        <span class="ml-2"> English (Fluent) </span>
                       </p>
 
                       <p class="idiom-title">
@@ -175,9 +171,7 @@
                           src="@/assets/img/spain_flag.png"
                           class="idiom-flag"
                         />
-                        <span class="ml-2">
-                          Spanish (Communicable)
-                        </span>
+                        <span class="ml-2"> Spanish (Communicable) </span>
                       </p>
                     </div>
                   </v-expansion-panel-content>
@@ -229,6 +223,6 @@ html {
 .idiom-flag {
   max-height: 40px;
   max-width: 30px;
-  transform: translate(0, 4px)
+  transform: translate(0, 4px);
 }
 </style>
