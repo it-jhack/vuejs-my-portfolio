@@ -19,23 +19,6 @@
             </v-list-item-title>
           </v-list-item-content>
         </v-list-item>
-
-        <a
-          href="https://drive.google.com/file/d/1BH-3ObjuuO5fkv09Rv5ixuop7oLxaoKJ/view?usp=sharing"
-          target="_blank"
-          class="no-anchor-text-decoration"
-        >
-          <v-list-item>
-            <v-list-item-icon class="justify-center">
-              <v-icon>mdi-download</v-icon>
-            </v-list-item-icon>
-            <v-list-item-content>
-              <v-list-item-title class="subtitile-1 small-text-shadow">
-                Download Resume
-              </v-list-item-title>
-            </v-list-item-content>
-          </v-list-item>
-        </a>
       </v-list>
     </v-navigation-drawer>
 
@@ -69,16 +52,6 @@
         <v-btn text @click="$vuetify.goTo('#contact')">
           <span class="mr-2 small-text-shadow">Contact</span>
         </v-btn>
-        <a
-          href="https://drive.google.com/file/d/1BH-3ObjuuO5fkv09Rv5ixuop7oLxaoKJ/view?usp=sharing"
-          target="_blank"
-          class="no-anchor-text-decoration"
-        >
-          <v-btn rounded outlined>
-            <v-icon>mdi-download</v-icon>
-            <span class="mr-2 small-text-shadow">Resume</span>
-          </v-btn>
-        </a>
       </div>
     </v-app-bar>
   </div>

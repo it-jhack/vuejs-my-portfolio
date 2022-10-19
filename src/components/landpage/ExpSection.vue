@@ -10,19 +10,6 @@
               <v-btn
                 rounded
                 outlined
-                href="https://drive.google.com/file/d/1BH-3ObjuuO5fkv09Rv5ixuop7oLxaoKJ/view?usp=sharing"
-                target="_blank"
-                large
-                color="white"
-                class="mt-4"
-              >
-                <v-icon class="mr-2"> mdi-download </v-icon>
-                <span>Download Resume</span>
-              </v-btn>
-
-              <v-btn
-                rounded
-                outlined
                 href="https://www.linkedin.com/in/thiago-de-paula-amaral/"
                 target="_blank"
                 large
