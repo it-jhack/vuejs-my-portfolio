@@ -37,10 +37,6 @@
                     Hard Skills
                   </v-expansion-panel-header>
                   <v-expansion-panel-content>
-                    <p>
-                      Here are some examples of technologies that I have already
-                      worked with:
-                    </p>
                     <ul class="mb-4">
                       <li>Vue.js</li>
                       <li>TypeScript (mostly) and JavaScript</li>
@@ -48,6 +44,7 @@
                       <li>CSS and SCSS</li>
                       <li>Flexbox and Grid system</li>
                       <li>BootStrap Vue</li>
+                      <li>Cypress (automated tests)</li>
                       <li>Node.js (also in TypeScript)</li>
                       <li>MySQL and NoSQL</li>
                       <li>AWS Cloud Services</li>
@@ -56,32 +53,34 @@
                       <li>GitFlow, Agile and Scrum methodologies</li>
                     </ul>
                     <p>
-                      I started working as an intern in Front-end development in
-                      June 2021, and was effectively hired in December of the
-                      same year.
+                      I started working on front-end web development as an
+                      intern in June 2021 and was hired in December 2021; I’ve
+                      been studying programming and IT independently since 2018.
                     </p>
                     <p>
-                      Although I work focused mainly on front-end, I have worked
-                      in backend features and hotfixes on numerous occasions,
-                      which gave me an overall good understanding of APIs, how
-                      to better structure the front-end, and how to effectively
-                      connect it to the back-end.
+                      Front-end experience using Vue.js, TypeScript/JavaScript,
+                      Cypress E2E automated testing, Sass/Scss, and Tailwindcss.
                     </p>
                     <p>
-                      One year of experience might not look like much, but I
-                      feel that I've learned the equivalent of so much more
-                      during this time. Time flies by when I code because I
-                      absolutely love it. I guess that's the secret to learn
-                      quickly in little time :D
+                      Back-end experience with Node.js, Express.js, and
+                      Insomnia/Postman.
                     </p>
                     <p>
-                      I also have experimented with
-                      <span class="bold">Bug Hunting</span>
-                      in the past, which gave me a good general understanding of
-                      web vulnerabilities. As described in the Projects section
-                      of this page, during this period I developed a tool in
-                      Python that can identify Subdomain Takeover
-                      vulnerabilities.
+                      Some Database experience with SQL (AWS RDS) and NoSQL
+                      technologies (AWS DynamoDB), using DataGrip and MySQL
+                      Workbench as SQL IDE.
+                    </p>
+                    <p>
+                      I love to use Linux Debian OS and Bash/Unix Shell
+                      scripting to optimize tasks.
+                    </p>
+                    <p>
+                      Good knowledge of networks and common cyber-security
+                      threats.
+                    </p>
+                    <p>
+                      Here are some examples of technologies that I have already
+                      worked with:
                     </p>
                   </v-expansion-panel-content>
                 </v-expansion-panel>
