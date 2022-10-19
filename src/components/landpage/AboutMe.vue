@@ -92,8 +92,8 @@
                   <v-expansion-panel-content>
                     <div>
                       Soft skills can be fairly more valuable than hard skills
-                      at the beginning of a career. It takes only a few months
-                      to train a person to do complex tasks, but to change a
+                      at the beginning of a career. Many complex hard skills can
+                      be acquired within less than a few months, but to change a
                       person's character and behavior can take a lifetime.
                     </div>
                     <div>
