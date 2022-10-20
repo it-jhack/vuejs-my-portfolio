@@ -248,6 +248,7 @@ export default {
 
 .mobile-bg {
   background-color: #02000d;
+  min-height: 85vh;
 }
 
 .rounded-corners {
