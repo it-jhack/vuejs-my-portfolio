@@ -1,4 +1,11 @@
-# vuejs-my-portfolio
+## vuejs-my-portfolio
+My portfolio website built with Vue.js, Vuetify, Vuex, Vue Router, and some WebGL Fluid Simulation effects.
+
+Project hosted at:
+https://thiagoamaral.vercel.app/
+
+WebGL Fluid Simulation:
+https://github.com/PavelDoGreat/WebGL-Fluid-Simulation
 
 ## Project setup
 ```

@@ -1,6 +1,6 @@
 <template>
   <v-footer dark padless>
-    <v-card flat tile class="secondary white--text text-center">
+    <v-card flat tile class="secondary white-text text-center pt-4">
       <v-card-text>
         <v-btn
           v-for="(icon, i) in icons"
@@ -10,7 +10,7 @@
           target="_blank"
           icon
         >
-          <v-icon size="24px">{{ icon.text }}</v-icon>
+          <v-icon size="36px">{{ icon.text }}</v-icon>
         </v-btn>
       </v-card-text>
 
@@ -44,6 +44,10 @@ export default {
       {
         text: "mdi-linkedin",
         link: "https://www.linkedin.com/in/thiago-de-paula-amaral/",
+      },
+      {
+        text: "mdi-instagram",
+        link: "https://www.instagram.com/thiago_amaral_0x539/",
       },
     ],
   }),

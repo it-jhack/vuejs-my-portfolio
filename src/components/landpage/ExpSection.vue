@@ -10,19 +10,6 @@
               <v-btn
                 rounded
                 outlined
-                href="https://drive.google.com/file/d/1BH-3ObjuuO5fkv09Rv5ixuop7oLxaoKJ/view?usp=sharing"
-                target="_blank"
-                large
-                color="white"
-                class="mt-4"
-              >
-                <v-icon class="mr-2"> mdi-download </v-icon>
-                <span>Download Resume</span>
-              </v-btn>
-
-              <v-btn
-                rounded
-                outlined
                 href="https://www.linkedin.com/in/thiago-de-paula-amaral/"
                 target="_blank"
                 large
@@ -38,8 +25,13 @@
               <template v-slot:default>
                 <tbody>
                   <tr v-for="item in experiences" :key="item.period">
-                    <td class="pt-2 pb-2">{{ item.period }}</td>
-                    <td class="pt-2 pb-2">{{ item.experience }}</td>
+                    <td class="pt-2 pb-2">
+                      <img v-if="item.image" :src="item.image" class="logo" />
+                      <span class="period">{{ item.period }}</span>
+                    </td>
+                    <td class="pt-2 pb-2">
+                      {{ item.experience }}
+                    </td>
                   </tr>
                 </tbody>
               </template>
@@ -66,14 +58,17 @@ export default {
       ],
       experiences: [
         {
+          image: "logo-weclever.png",
           period: "2021 Dec — Present",
           experience:
-            "Full Stack Web Developer (focused on Front-end) at WeClever.co, a \
-            fast-paced, quick-evolving B2B Brazilian startup. Here I enhanced \
-            my skills in Vue.js, TypeScript, Node.js, CSS, MySQL and AWS cloud \
-            services on a daily basis",
+            "Front-end Web Developer at WeClever.co, a fast-paced,\
+            quick-evolving B2B Brazilian startup. Sometimes I also \
+            work in the Back-end. Here I enhanced my skills in \
+            Vue.js, TypeScript, Node.js, CSS, MySQL \
+            and AWS cloud services.",
         },
         {
+          image: "logo-flowdev.png",
           period: "2021 Jun — 2021 Dec",
           experience:
             "Front-end Developer Intern at FlowDev Systems, a company that \
@@ -82,28 +77,32 @@ export default {
             calling APIs using Axios and",
         },
         {
+          image: "logo-unip.png",
           period: "2019 — 2021",
           experience: "Systems Analysis and Development, UNIP (University)",
         },
         {
+          image: "logo-a&a.png",
           period: "2017 — 2020",
-          experience: "Administrative Assistant",
+          experience: "Administrative Assistant, A&A Furnitures Ltd.",
         },
         {
+          image: "logo-fpi.png",
           period: "2015",
           experience:
             "Business Intelligence Assistant intern at FPInnovations - Vancouver, Canada.",
         },
         {
+          image: "logo-ubc.png",
           period: "2014 — 2015",
           experience:
             "Internship Scholarship at University of British Columbia (UBC) - Vancouver, Canada",
         },
-
         {
+          image: "logo-unesp.png",
           period: "2011 — 2016",
           experience:
-            "Engineering, Forestry. Bachelor degree at UNESP - Sao Paulo State University.",
+            "Engineering, Forestry. Bachelor's degree at UNESP - Sao Paulo State University.",
         },
       ],
     };
@@ -123,5 +122,17 @@ export default {
   width: 100%;
   background-color: #292929;
   overflow-x: hidden !important;
+}
+
+.logo {
+  display: grid;
+  justify-content: center;
+  margin: 10px 0;
+  max-width: 80px;
+  max-height: 35px;
+}
+
+.period {
+  color: #c4c4c4;
 }
 </style>
