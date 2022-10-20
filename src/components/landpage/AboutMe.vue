@@ -38,18 +38,19 @@
                   </v-expansion-panel-header>
                   <v-expansion-panel-content>
                     <ul class="mb-4">
-                      <li>Vue.js</li>
-                      <li>TypeScript (mostly) and JavaScript</li>
+                      <li>
+                        Vue.js, Vuex, Nuxt.js, Vue Router (also some React)
+                      </li>
+                      <li>TypeScript and JavaScript</li>
+                      <li>Cypress (automated tests)</li>
                       <li>JSON, Rest APIs, CORS</li>
-                      <li>CSS and SCSS</li>
+                      <li>Css and Sass/scss</li>
                       <li>Flexbox and Grid system</li>
                       <li>BootStrap Vue</li>
-                      <li>Cypress (automated tests)</li>
                       <li>Node.js (also in TypeScript)</li>
                       <li>MySQL and NoSQL</li>
                       <li>AWS Cloud Services</li>
                       <li>Google Tag Manager</li>
-                      <li>jQuery</li>
                       <li>GitFlow, Agile and Scrum methodologies</li>
                     </ul>
                     <p>
