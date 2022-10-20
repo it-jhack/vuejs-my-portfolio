@@ -37,7 +37,7 @@
         v-if="isXs"
       />
       <div v-else>
-        <v-btn text @click="$vuetify.goTo('#home')">
+        <v-btn text @click="$vuetify.goTo(0)">
           <span class="mr-2 small-text-shadow">Home</span>
         </v-btn>
         <v-btn text @click="$vuetify.goTo('#about')">
@@ -83,7 +83,7 @@ export default {
     drawer: null,
     isXs: false,
     items: [
-      ["mdi-home-outline", "Home", "#home"],
+      ["mdi-home-outline", "Home", 0],
       ["mdi-information-outline", "About", "#about"],
       ["mdi-download-box-outline", "Projects", "#projects"],
       ["mdi-briefcase", "Experience", "#experience"],
