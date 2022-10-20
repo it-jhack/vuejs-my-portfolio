@@ -177,7 +177,7 @@ export default {
   width: 5px;
 }
 ::-webkit-scrollbar-track {
-  background: #6E6E6E;
+  background: #6e6e6e;
 }
 ::-webkit-scrollbar-thumb {
   background: #414141;
