@@ -21,87 +21,90 @@
                   class="p-text mt-5"
                   :class="$store.state.isMobile ? '' : 'justified'"
                 >
-                  My name is Thiago Amaral, I'm a brazilian
-                  <span class="bold">Junior Full Stack Web Developer</span>
-                  focused on Front-end. Most of what I know I learned by myself
-                  online. I have a degree in System Analysis and Development and
-                  also a previous Engineering degree.
+                  My name is Thiago Amaral, I'm a Brazilian
+                  <span class="bold">Front-end Developer</span>, but sometimes I
+                  morph into Full Stack mode 😄. I've been studying programming
+                  on my own since 2018 and have been working professionally on
+                  front-end development since mid-2021. I have a degree in
+                  Systems Analysis and Development and also a previous
+                  Engineering degree.
                 </p>
               </div>
 
               <v-expansion-panels dark multiple>
                 <v-expansion-panel>
-                  <v-expansion-panel-header class="skills-dropdown">
+                  <v-expansion-panel-header>
                     Hard Skills
                   </v-expansion-panel-header>
                   <v-expansion-panel-content>
-                    <p>
-                      Here are some examples of technologies that I have already
-                      worked with:
-                    </p>
                     <ul class="mb-4">
-                      <li>Vue.js</li>
-                      <li>TypeScript (mostly) and JavaScript</li>
+                      <li>
+                        Vue.js, Vuex, Nuxt.js, Vue Router (also some React)
+                      </li>
+                      <li>TypeScript and JavaScript</li>
+                      <li>Cypress (automated tests)</li>
                       <li>JSON, Rest APIs, CORS</li>
-                      <li>CSS and SCSS</li>
+                      <li>Css and Sass/scss</li>
                       <li>Flexbox and Grid system</li>
                       <li>BootStrap Vue</li>
                       <li>Node.js (also in TypeScript)</li>
                       <li>MySQL and NoSQL</li>
                       <li>AWS Cloud Services</li>
                       <li>Google Tag Manager</li>
-                      <li>jQuery</li>
                       <li>GitFlow, Agile and Scrum methodologies</li>
                     </ul>
                     <p>
-                      I started working as a Front-end developer in June 2021,
-                      and as a Full Stack developer in December of the same
-                      year.
+                      I started working on front-end web development as an
+                      intern in June 2021 and was hired in December 2021; I’ve
+                      been studying programming and IT independently since 2018.
                     </p>
                     <p>
-                      Although I work focused mainly on front-end, I have worked
-                      in backend features and hotfixes on numerous occasions,
-                      which gave me an overall good understanding of APIs, how
-                      to better structure the front-end, and how to effectively
-                      connect it to the back-end.
+                      Front-end experience using Vue.js, TypeScript/JavaScript,
+                      Cypress E2E automated testing, Sass/Scss, and Tailwindcss.
                     </p>
                     <p>
-                      One year of experience might not look like much, but I
-                      feel that I've learned the equivalent of so much more
-                      during this time. Time flies by when I code because I
-                      absolutely love it. I guess that's the secret to learn
-                      quickly in little time :D
+                      Back-end experience with Node.js, Express.js, and
+                      Insomnia/Postman.
                     </p>
                     <p>
-                      I also have experimented with
-                      <span class="bold">Bug Hunting</span>
-                      in the past, which gave me a good general understanding of
-                      web vulnerabilities. As described in the Projects section
-                      of this page, during this period I developed a tool in
-                      Python that can identify Subdomain Takeover
-                      vulnerabilities.
+                      Some Database experience with SQL (AWS RDS) and NoSQL
+                      technologies (AWS DynamoDB), using DataGrip and MySQL
+                      Workbench as SQL IDE.
+                    </p>
+                    <p>
+                      I love to use Linux Debian OS and Bash/Unix Shell
+                      scripting to optimize tasks.
+                    </p>
+                    <p>
+                      Good knowledge of networks and common cyber-security
+                      threats.
+                    </p>
+                    <p>
+                      Here are some examples of technologies that I have already
+                      worked with:
                     </p>
                   </v-expansion-panel-content>
                 </v-expansion-panel>
 
                 <v-expansion-panel>
-                  <v-expansion-panel-header class="skills-dropdown">
+                  <v-expansion-panel-header>
                     Soft Skills
                   </v-expansion-panel-header>
                   <v-expansion-panel-content>
                     <div>
                       Soft skills can be fairly more valuable than hard skills
-                      in the beginning of a career. It takes only a few months
-                      to train a person to do complex tasks, but to change a
+                      at the beginning of a career. Many complex hard skills can
+                      be acquired within less than a few months, but to change a
                       person's character and behavior can take a lifetime.
                     </div>
                     <div>
                       <div class="skill-bold mt-4">Proactivity</div>
                       <div class="mt-1 ml-4">
-                        Getting the job done is not enough, getting it well done
-                        is a must. This is an important skill in order to avoid
-                        technical debt which can generate the awful feeling of
-                        being always chasing one's own tail.
+                        I try to proactively plan before execution. Getting all
+                        jobs done in any way as fast as possible is a trap that
+                        will quickly build up technical debt. On the other hand,
+                        planning too much can be even worse. Balance between
+                        proactive planning and execution is key.
                       </div>
                     </div>
                     <div>
@@ -126,139 +129,50 @@
                       <div class="skill-bold mt-4">Self-taught</div>
                       <div class="mt-1 ml-4">
                         There is a vast magnitude of incredible content
-                        available online. It's essential for a developer to be
-                        able to find similar solutions independently, and to
-                        apply them to your context and project.
+                        available online. A developer should be able to find
+                        similar solutions independently, and apply them to
+                        context of the project.
                       </div>
                     </div>
                     <div>
                       <div class="skill-bold mt-4">Friendliness</div>
                       <div class="mt-1 ml-4">
                         People consider me to be very friendly, even for
-                        brazilian standards 😁
+                        Brazilian standards 😁
                       </div>
                     </div>
                   </v-expansion-panel-content>
                 </v-expansion-panel>
 
                 <v-expansion-panel>
-                  <v-expansion-panel-header class="skills-dropdown">
-                    Idioms
-                  </v-expansion-panel-header>
+                  <v-expansion-panel-header> Idioms </v-expansion-panel-header>
                   <v-expansion-panel-content>
-                    <div class="skills">
+                    <div>
                       <p class="idiom-title">
                         <img
                           src="@/assets/img/brazil_icon.jpg"
-                          max-height="40px"
-                          max-width="30px"
-                        />&nbsp; Brazilian Portuguese (Native)
+                          class="idiom-flag"
+                        />
+                        <span class="ml-2">
+                          Brazilian Portuguese (Native)
+                        </span>
                       </p>
-                      <ul class="skill-ul">
-                        <li class="skill-li">
-                          <span class="skill-span pt-r"></span>
-                          <p class="skill-text">
-                            <span class="skill-bold">Reading:</span> Excellent
-                          </p>
-                        </li>
-                        <li class="skill-li">
-                          <span class="skill-span pt-w"></span>
-                          <p class="skill-text">
-                            <span class="skill-bold">Writing:</span>
-                            Excellent
-                          </p>
-                        </li>
-                        <li class="skill-li">
-                          <span class="skill-span pt-l"></span>
-                          <p class="skill-text">
-                            <span class="skill-bold">Listening:</span>
-                            Excellent
-                          </p>
-                        </li>
-                        <li class="skill-li">
-                          <span class="skill-span pt-s"></span>
-                          <p class="skill-text">
-                            <span class="skill-bold">Speaking:</span>
-                            Excellent
-                          </p>
-                        </li>
-                      </ul>
 
                       <p class="idiom-title">
                         <img
                           src="@/assets/img/us-icon.png"
-                          max-height="40px"
-                          max-width="30px"
-                        />&nbsp; English (Fluent)
+                          class="idiom-flag"
+                        />
+                        <span class="ml-2"> English (Fluent) </span>
                       </p>
-                      <ul class="skill-ul">
-                        <li class="skill-li">
-                          <span class="skill-span en-r"></span>
-                          <p class="skill-text">
-                            <span class="skill-bold">Reading:</span>
-                            Fluent
-                          </p>
-                        </li>
-                        <li class="skill-li">
-                          <span class="skill-span en-w"></span>
-                          <p class="skill-text">
-                            <span class="skill-bold">Writing:</span>
-                            Fluent
-                          </p>
-                        </li>
-                        <li class="skill-li">
-                          <span class="skill-span en-l"></span>
-                          <p class="skill-text">
-                            <span class="skill-bold">Listening:</span>
-                            Fluent
-                          </p>
-                        </li>
-                        <li class="skill-li">
-                          <span class="skill-span en-s"></span>
-                          <p class="skill-text">
-                            <span class="skill-bold">Speaking:</span>
-                            Fluent
-                          </p>
-                        </li>
-                      </ul>
 
                       <p class="idiom-title">
                         <img
                           src="@/assets/img/spain_flag.png"
-                          max-height="40px"
-                          max-width="30px"
-                        />&nbsp; Spanish (Good)
+                          class="idiom-flag"
+                        />
+                        <span class="ml-2"> Spanish (Communicable) </span>
                       </p>
-                      <ul class="skill-ul">
-                        <li class="skill-li">
-                          <span class="skill-span sp-r"></span>
-                          <p class="skill-text">
-                            <span class="skill-bold">Reading:</span>
-                            Very Good
-                          </p>
-                        </li>
-                        <li class="skill-li">
-                          <span class="skill-span sp-w"></span>
-                          <p class="skill-text">
-                            <span class="skill-bold">Writing:</span>
-                            Very Good
-                          </p>
-                        </li>
-                        <li class="skill-li">
-                          <span class="skill-span sp-l"></span>
-                          <p class="skill-text">
-                            <span class="skill-bold">Listening:</span>
-                            Good
-                          </p>
-                        </li>
-                        <li class="skill-li">
-                          <span class="skill-span sp-s"></span>
-                          <p class="skill-text">
-                            <span class="skill-bold">Speaking:</span>
-                            Communicable
-                          </p>
-                        </li>
-                      </ul>
                     </div>
                   </v-expansion-panel-content>
                 </v-expansion-panel>
@@ -303,194 +217,12 @@ html {
 }
 
 .idiom-title {
-  font-size: 22px;
-}
-
-.skills-dropdown {
   font-size: 16px;
 }
 
-/* Skill Bars */
-.skills {
-  width: 93%;
-  position: relative;
-  float: left;
-  padding: 15px 0;
-}
-.skill-ul {
-  padding-top: 30px;
-}
-.skill-li {
-  margin-bottom: 50px;
-  background: #dededed5;
-  height: 6px;
-  list-style-type: none;
-}
-.skill-text {
-  font-style: italic;
-  font-size: 18px;
-  position: relative;
-  top: -30px;
-}
-.skill-bold {
-  font-weight: 600;
-}
-.skill-span {
-  height: inherit;
-  background-color: #009600da;
-  /* background: linear-gradient(90deg, #009600da, #009600da); */
-  background: #009600da;
-  position: absolute;
-}
-
-.pt-r {
-  width: 96.2%;
-  animation: pt-r 1s ease-out;
-}
-.pt-w {
-  width: 96.2%;
-  animation: pt-w 1s ease-out;
-}
-.pt-l {
-  width: 96.2%;
-  animation: pt-l 1s ease-out;
-}
-.pt-s {
-  width: 96.2%;
-  animation: pt-s 1s ease-out;
-}
-
-.en-r {
-  width: 93%;
-  animation: en-r 1s ease-out;
-}
-.en-w {
-  width: 93%;
-  animation: en-w 1s ease-out;
-}
-.en-l {
-  width: 93%;
-  animation: en-l 1s ease-out;
-}
-.en-s {
-  width: 93%;
-  animation: en-s 1s ease-out;
-}
-
-.sp-r {
-  width: 85%;
-  animation: sp-r 1s ease-out;
-}
-.sp-w {
-  width: 80%;
-  animation: sp-w 1s ease-out;
-}
-.sp-l {
-  width: 70%;
-  animation: sp-l 1s ease-out;
-}
-.sp-s {
-  width: 60%;
-  animation: sp-s 1s ease-out;
-}
-
-/* idioms */
-@keyframes pt-r {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 93%;
-  }
-}
-@keyframes pt-w {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 93%;
-  }
-}
-@keyframes pt-l {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 93%;
-  }
-}
-@keyframes pt-s {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 93%;
-  }
-}
-
-@keyframes en-r {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 90%;
-  }
-}
-@keyframes en-w {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 90%;
-  }
-}
-@keyframes en-l {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 90%;
-  }
-}
-@keyframes en-s {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 90%;
-  }
-}
-
-@keyframes sp-r {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 85%;
-  }
-}
-@keyframes sp-w {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 80%;
-  }
-}
-@keyframes sp-l {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 70%;
-  }
-}
-@keyframes sp-s {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 60%;
-  }
+.idiom-flag {
+  max-height: 40px;
+  max-width: 30px;
+  transform: translate(0, 4px);
 }
 </style>

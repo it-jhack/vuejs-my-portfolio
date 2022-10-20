@@ -12,7 +12,7 @@
               <p class="terminal-title mb-2">/git clone projects.git</p>
               <div class="p-text white-color mt-5">
                 <p>
-                  Make sure to checkout my Projects and Gists on GitHub
+                  Make sure to check out my Projects and Gists on GitHub
                   @it-jhack
                 </p>
                 <v-btn
@@ -28,7 +28,59 @@
                   GitHub
                 </v-btn>
 
-                <p class="mt-5">Checkout some of my public projects:</p>
+                <p class="mt-5">Check out some of my public projects:</p>
+
+                <v-tooltip
+                  :bottom="!this.$store.state.isMobile"
+                  :top="this.$store.state.isMobile"
+                  :nudge-top="!this.$store.state.isMobile ? '42' : ''"
+                  :nudge-right="!this.$store.state.isMobile ? '130' : ''"
+                  :max-width="!this.$store.state.isMobile ? '20vw' : '90vw'"
+                >
+                  <template v-slot:activator="{ on, attrs }">
+                    <div class="my-0">
+                      <a
+                        href="https://github.com/it-jhack/vuejs-my-portfolio"
+                        target="_blank"
+                      >
+                        /vuejs-my-portfolio
+                      </a>
+                      <v-icon class="info-icon" v-bind="attrs" v-on="on">
+                        mdi-information-outline
+                      </v-icon>
+                    </div>
+                  </template>
+                  <span>
+                    The project of this very portfolio site you're seeing.
+                  </span>
+                </v-tooltip>
+
+                <v-tooltip
+                  :bottom="!this.$store.state.isMobile"
+                  :top="this.$store.state.isMobile"
+                  :nudge-top="!this.$store.state.isMobile ? '42' : ''"
+                  :nudge-right="!this.$store.state.isMobile ? '130' : ''"
+                  :max-width="!this.$store.state.isMobile ? '20vw' : '90vw'"
+                >
+                  <template v-slot:activator="{ on, attrs }">
+                    <div class="my-0">
+                      <a
+                        href="https://github.com/it-jhack/movie-title-translator"
+                        target="_blank"
+                      >
+                        /movie-title-translator
+                      </a>
+                      <v-icon class="info-icon" v-bind="attrs" v-on="on">
+                        mdi-information-outline
+                      </v-icon>
+                    </div>
+                  </template>
+                  <span>
+                    The Movie Title Translator is a project I made purely to
+                    learn and experiment with React and Next.js (coming from a
+                    Vue.js background as a developer).
+                  </span>
+                </v-tooltip>
 
                 <v-tooltip
                   :bottom="!this.$store.state.isMobile"
@@ -54,7 +106,7 @@
                     </div>
                   </template>
                   <span>
-                    Project I did mid 2021. The front-end fetches characters
+                    Project I did mid-2021. The front-end fetches characters
                     from Star Wars Api (Swapi), processes the response JSON
                     object and returns which movies the selected character has
                     been in. If you provide an appropriate secret key for Bing
@@ -148,36 +200,18 @@
             </v-col>
 
             <v-col sm="6" class="hidden-xs-only">
-              <v-dialog
-                v-model="swapiDialog"
-                max-width="65vw"
-                class="m-10"
-                dark
-              >
-                <template v-slot:activator="{ on, attrs }">
-                  <a>
-                    <v-img
-                      v-bind="attrs"
-                      v-on="on"
-                      contain
-                      src="@/assets/img/swapi-demo.gif"
-                      position="top"
-                      class="mt-2 mb-4"
-                    />
-                  </a>
-                </template>
-
-                <v-card>
-                  <v-img
-                    class="d-flex justify-center"
-                    contain
-                    src="@/assets/img/swapi-demo.gif"
-                    position="top"
-                    max-width="65vw"
-                    max-height="80vh"
-                  />
-                </v-card>
-              </v-dialog>
+              <v-img
+                contain
+                src="@/assets/img/project-movie-title-translator.gif"
+                position="top"
+                class="project-img"
+              />
+              <v-img
+                contain
+                src="@/assets/img/project-swapi.gif"
+                position="top"
+                class="project-img"
+              />
             </v-col>
           </v-row>
         </v-col>
@@ -189,9 +223,7 @@
 <script>
 export default {
   data() {
-    return {
-      swapiDialog: false,
-    };
+    return {};
   },
 };
 </script>
@@ -216,6 +248,7 @@ export default {
 
 .mobile-bg {
   background-color: #02000d;
+  min-height: 85vh;
 }
 
 .rounded-corners {
@@ -243,5 +276,11 @@ a:visited {
 .v-tooltip__content {
   opacity: 1 !important;
   background: #292929;
+}
+
+.project-img {
+  height: 250px;
+  width: 445px;
+  margin: 0 0 20px 0;
 }
 </style>
