@@ -171,4 +171,18 @@ export default {
     opacity: 1;
   }
 }
+
+// Webkit Scrollbar
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #6E6E6E;
+}
+::-webkit-scrollbar-thumb {
+  background: #414141;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #1f1f1f;
+}
 </style>
