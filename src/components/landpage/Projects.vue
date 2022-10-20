@@ -28,7 +28,7 @@
                   GitHub
                 </v-btn>
 
-                <p class="mt-5">Checkout some of my public projects:</p>
+                <p class="mt-5">Check out some of my public projects:</p>
 
                 <v-tooltip
                   :bottom="!this.$store.state.isMobile"
