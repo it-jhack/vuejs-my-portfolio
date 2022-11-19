@@ -15,6 +15,7 @@
                   Make sure to check out my Projects and Gists on GitHub
                   @it-jhack
                 </p>
+
                 <v-btn
                   rounded
                   outlined
@@ -22,11 +23,67 @@
                   target="_blank"
                   large
                   color="white"
-                  class="mt-2"
+                  class="mt-2 mr-3"
                 >
                   <v-icon class="mr-2">mdi-github</v-icon>
                   GitHub
                 </v-btn>
+
+                <v-dialog
+                  v-if="this.$store.state.isMobile"
+                  overlay-color="black"
+                  v-model="githubStatsDialog"
+                  max-width="290"
+                >
+                  <template v-slot:activator="{ on, attrs }">
+                    <v-btn
+                      v-bind="attrs"
+                      v-on="on"
+                      rounded
+                      outlined
+                      large
+                      color="white"
+                      class="mt-2"
+                    >
+                      <v-icon class="mr-2">mdi-star-outline</v-icon>
+                      Stats
+                    </v-btn>
+                  </template>
+                  <v-card dark>
+                    <v-card-text class="pt-5">
+                      <p class="p-text white-color">My Github Stats</p>
+                      <img
+                        class="github-stats-cards"
+                        src="https://github-readme-stats.vercel.app/api?username=it-jhack&show_icons=true&bg_color=1f222e&hide_border=1&title_color=42b883&theme=gotham&hide_rank=true"
+                      />
+
+                      <p class="p-text white-color mt-5">
+                        Open-source projects I've contributed to
+                      </p>
+                      <p>
+                        <a
+                          href="https://github.com/DenverCoder1/readme-typing-svg/pull/165"
+                          target="_blank"
+                        >
+                          <img
+                            class="github-stats-cards"
+                            src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=DenverCoder1&repo=readme-typing-svg&theme=react&bg_color=1f222e&title_color=42b883&hide_border=true&icon_color=f8d866"
+                          />
+                        </a>
+                      </p>
+                    </v-card-text>
+                    <v-card-actions>
+                      <v-spacer></v-spacer>
+                      <v-btn
+                        color="darken-1"
+                        text
+                        @click="githubStatsDialog = false"
+                      >
+                        Close
+                      </v-btn>
+                    </v-card-actions>
+                  </v-card>
+                </v-dialog>
 
                 <p class="mt-5">Check out some of my public projects:</p>
 
@@ -199,7 +256,7 @@
               </div>
             </v-col>
 
-            <v-col sm="6" class="hidden-xs-only">
+            <v-col v-if="!this.$store.state.isMobile" sm="6">
               <img
                 src="https://github-readme-stats.vercel.app/api?username=it-jhack&show_icons=true&bg_color=1f222e&hide_border=1&title_color=42b883&theme=gotham"
               />
@@ -228,7 +285,9 @@
 <script>
 export default {
   data() {
-    return {};
+    return {
+      githubStatsDialog: false,
+    };
   },
 };
 </script>
@@ -258,6 +317,10 @@ export default {
 
 .rounded-corners {
   border-radius: 20%;
+}
+
+.github-stats-cards {
+  max-width: 67.5vw;
 }
 
 .info-icon {
