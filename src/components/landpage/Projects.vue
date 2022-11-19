@@ -200,18 +200,23 @@
             </v-col>
 
             <v-col sm="6" class="hidden-xs-only">
-              <v-img
-                contain
-                src="@/assets/img/project-movie-title-translator.gif"
-                position="top"
-                class="project-img"
+              <img
+                src="https://github-readme-stats.vercel.app/api?username=it-jhack&show_icons=true&bg_color=1f222e&hide_border=1&title_color=42b883&theme=gotham"
               />
-              <v-img
-                contain
-                src="@/assets/img/project-swapi.gif"
-                position="top"
-                class="project-img"
-              />
+
+              <p class="p-text white-color mt-5">
+                Open-source projects I've contributed to
+              </p>
+              <p>
+                <a
+                  href="https://github.com/DenverCoder1/readme-typing-svg/pull/165"
+                  target="_blank"
+                >
+                  <img
+                    src="https://denvercoder1-github-readme-stats.vercel.app/api/pin/?username=DenverCoder1&repo=readme-typing-svg&theme=react&bg_color=1f222e&title_color=42b883&hide_border=true&icon_color=f8d866"
+                  />
+                </a>
+              </p>
             </v-col>
           </v-row>
         </v-col>
