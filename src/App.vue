@@ -1,12 +1,12 @@
 <template>
   <v-app id="main-app">
-    <Navigation :color="color" :flat="flat" />
+    <TheNavigation :color="color" :flat="flat" />
     <v-main class="pt-0">
       <CanvasGreeting />
-      <About id="about" />
-      <Projects />
-      <Experience />
-      <Contact />
+      <AboutMe id="about" />
+      <MyProjects />
+      <ExpSection />
+      <ContactSection />
     </v-main>
     <v-scale-transition v-if="!$store.state.isMobile">
       <v-btn
@@ -23,30 +23,30 @@
         <v-icon>mdi-arrow-up</v-icon>
       </v-btn>
     </v-scale-transition>
-    <MyFooter />
+    <TheFooter />
   </v-app>
 </template>
 
 <script>
-import Navigation from "./components/Navigation";
-import MyFooter from "./components/Footer";
+import TheNavigation from "./components/TheNavigation";
+import TheFooter from "./components/TheFooter";
 import CanvasGreeting from "@/components/landpage/CanvasGreeting.vue";
-import About from "./components/landpage/AboutMe";
-import Projects from "./components/landpage/Projects";
-import Experience from "./components/landpage/ExpSection";
-import Contact from "./components/landpage/ContactSection";
+import AboutMe from "./components/landpage/AboutMe";
+import MyProjects from "./components/landpage/MyProjects";
+import ExpSection from "./components/landpage/ExpSection";
+import ContactSection from "./components/landpage/ContactSection";
 
 export default {
   name: "App",
 
   components: {
-    Navigation,
-    MyFooter,
+    TheNavigation,
+    TheFooter,
     CanvasGreeting,
-    About,
-    Projects,
-    Experience,
-    Contact,
+    AboutMe,
+    MyProjects,
+    ExpSection,
+    ContactSection,
   },
 
   data: () => ({
