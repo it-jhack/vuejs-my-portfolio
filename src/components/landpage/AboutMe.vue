@@ -98,7 +98,7 @@
                       person's character and behavior can take a lifetime.
                     </div>
                     <div>
-                      <div class="skill-bold mt-4">Proactivity</div>
+                      <div class="skill-bold mt-4">🏃‍♂️ Proactivity</div>
                       <div class="mt-1 ml-4">
                         I try to proactively plan before execution. Getting all
                         jobs done in any way as fast as possible is a trap that
@@ -108,7 +108,7 @@
                       </div>
                     </div>
                     <div>
-                      <div class="skill-bold mt-4">Time Management</div>
+                      <div class="skill-bold mt-4">🕒 Time Management</div>
                       <div class="mt-1 ml-4">
                         Time is the most valuable resource there is. There is
                         only a finite amount and we don't even know for sure how
@@ -118,7 +118,7 @@
                       </div>
                     </div>
                     <div>
-                      <div class="skill-bold mt-4">Quick Learning</div>
+                      <div class="skill-bold mt-4">🧠 Quick Learning</div>
                       <div class="mt-1 ml-4">
                         I know that stating this can be very cliché, but I've
                         actually been complimented for being able to quickly
@@ -126,7 +126,7 @@
                       </div>
                     </div>
                     <div>
-                      <div class="skill-bold mt-4">Self-taught</div>
+                      <div class="skill-bold mt-4">📚 Self-taught</div>
                       <div class="mt-1 ml-4">
                         There is a vast magnitude of incredible content
                         available online. A developer should be able to find
@@ -135,10 +135,9 @@
                       </div>
                     </div>
                     <div>
-                      <div class="skill-bold mt-4">Friendliness</div>
+                      <div class="skill-bold mt-4">😁 Friendliness</div>
                       <div class="mt-1 ml-4">
-                        People consider me to be very friendly, even for
-                        Brazilian standards 😁
+                        People consider me to be very friendly.
                       </div>
                     </div>
                   </v-expansion-panel-content>
