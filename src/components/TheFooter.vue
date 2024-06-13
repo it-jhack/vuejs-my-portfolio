@@ -43,7 +43,7 @@ export default {
       },
       {
         text: "mdi-linkedin",
-        link: "https://www.linkedin.com/in/thiago-de-paula-amaral/",
+        link: "https://www.linkedin.com/in/tpamaral/",
       },
       {
         text: "mdi-instagram",

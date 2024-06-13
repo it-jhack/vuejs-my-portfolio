@@ -5,11 +5,7 @@
         <v-col cols="10">
           <v-row justify="center">
             <v-col cols="12" sm="5" class="v-margin-bottom">
-              <div class="terminal-title mt-5">/ssh my_contact</div>
-              <div class="p-text white-color mt-8 text-align-justify">
-                Contact me and I will be glad to further discuss any related
-                topics
-              </div>
+              <div class="terminal-title mt-5">/ssh contact_me</div>
             </v-col>
           </v-row>
           <v-row>
