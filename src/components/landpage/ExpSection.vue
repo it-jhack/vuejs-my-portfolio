@@ -10,7 +10,7 @@
               <v-btn
                 rounded
                 outlined
-                href="https://www.linkedin.com/in/thiago-de-paula-amaral/"
+                href="https://www.linkedin.com/in/tpamaral/"
                 target="_blank"
                 large
                 color="white"
@@ -61,30 +61,29 @@ export default {
           image: "logo-weclever.png",
           period: "2021 Dec — Present",
           experience:
-            "Front-end Web Developer at WeClever.co, a fast-paced,\
-            quick-evolving B2B Brazilian startup. Sometimes I also \
-            work in the Back-end. Here I enhanced my skills in \
-            Vue.js, TypeScript, Node.js, CSS, MySQL \
-            and AWS cloud services.",
+            "Full Stack Developer at WeClever.co, a fast-paced\
+            B2B AI Brazilian Startup. Here I developed my skills in \
+            Vue.js, TypeScript, Node.js, MySQL, AWS Cloud Services, \
+            Python, AI solutions, and team leadership.",
         },
         {
           image: "logo-flowdev.png",
           period: "2021 Jun — 2021 Dec",
           experience:
-            "Front-end Developer Intern at FlowDev Systems, a company that \
-            develops small custom commercial web systems. While working here, I \
-            developed my skills using Vue.js, JavaScript, CSS, Vuetify, and \
-            calling APIs using Axios and",
+            "Front-end Developer Intern at FlowDev Systems, a small \
+            Software House. While working here, I developed my skills \
+            with Vue.js and API calls",
         },
         {
           image: "logo-unip.png",
           period: "2019 — 2021",
-          experience: "Systems Analysis and Development, UNIP (University)",
+          experience:
+            "Systems Analysis and Development, UNIP (Brazilian University)",
         },
         {
           image: "logo-a&a.png",
           period: "2017 — 2020",
-          experience: "Administrative Assistant, A&A Furnitures Ltd.",
+          experience: "Business Administration Assistant, A&A Furnitures Ltd.",
         },
         {
           image: "logo-fpi.png",

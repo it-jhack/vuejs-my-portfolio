@@ -11,10 +11,7 @@
             <v-col cols="12" sm="6" class="text-left">
               <p class="terminal-title mb-2">/git clone projects.git</p>
               <div class="p-text white-color mt-5">
-                <p>
-                  Make sure to check out my Projects and Gists on GitHub
-                  @it-jhack
-                </p>
+                <p>Check out my projects on GitHub @it-jhack</p>
 
                 <v-btn
                   rounded
@@ -85,7 +82,7 @@
                   </v-card>
                 </v-dialog>
 
-                <p class="mt-5">Check out some of my public projects:</p>
+                <!-- <p class="mt-5">Check out some of my public projects:</p>
 
                 <v-tooltip
                   :bottom="!this.$store.state.isMobile"
@@ -252,7 +249,7 @@
                     to automate the installation of essential tools for Bug
                     Bounty Hunters on a fresh Debian Operational System.
                   </span>
-                </v-tooltip>
+                </v-tooltip> -->
               </div>
             </v-col>
 

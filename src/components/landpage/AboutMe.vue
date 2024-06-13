@@ -21,18 +21,38 @@
                   class="p-text mt-5"
                   :class="$store.state.isMobile ? '' : 'justified'"
                 >
-                  My name is Thiago Amaral, I'm a Brazilian
-                  <span class="bold">Front-end Developer</span>, but sometimes I
-                  morph into Full Stack mode 😄. I've been studying programming
-                  on my own since 2018 and have been working professionally on
-                  front-end development since mid-2021. I have a degree in
-                  Systems Analysis and Development and also a previous
-                  Engineering degree.
+                  I'm professionally driven to find and learn real world
+                  solutions. I previously had a bachelor's engineering degree,
+                  but started studying programming by myself in 2018. Later, I
+                  took a Systems Analysis and Development course, and I have
+                  been working with software development since 2021.
+                </p>
+                <p
+                  class="p-text mt-5"
+                  :class="$store.state.isMobile ? '' : 'justified'"
+                >
+                  I have a strong belief that cultivating your curiosity and
+                  having a disciplined student mindset are the keys to achieve
+                  exceptional prowess.
+                </p>
+                <p
+                  class="p-text mt-5 mb-0 quote"
+                  :class="$store.state.isMobile ? '' : 'justified'"
+                >
+                  "I am still learning"
+                </p>
+                <p
+                  class="ml-2 quote-author"
+                  :class="$store.state.isMobile ? '' : 'justified'"
+                >
+                  Michelangelo, at age 87.
                 </p>
               </div>
 
-              <v-expansion-panels dark multiple>
-                <v-expansion-panel>
+              <br />
+
+              <v-expansion-panels :value="[0]" dark multiple>
+                <!-- <v-expansion-panel>
                   <v-expansion-panel-header>
                     Hard Skills
                   </v-expansion-panel-header>
@@ -84,9 +104,9 @@
                       worked with:
                     </p>
                   </v-expansion-panel-content>
-                </v-expansion-panel>
+                </v-expansion-panel> -->
 
-                <v-expansion-panel>
+                <!-- <v-expansion-panel>
                   <v-expansion-panel-header>
                     Soft Skills
                   </v-expansion-panel-header>
@@ -141,10 +161,12 @@
                       </div>
                     </div>
                   </v-expansion-panel-content>
-                </v-expansion-panel>
+                </v-expansion-panel> -->
 
                 <v-expansion-panel>
-                  <v-expansion-panel-header> Idioms </v-expansion-panel-header>
+                  <v-expansion-panel-header>
+                    Language Fluency
+                  </v-expansion-panel-header>
                   <v-expansion-panel-content>
                     <div>
                       <p class="idiom-title">
@@ -163,6 +185,14 @@
                           class="idiom-flag"
                         />
                         <span class="ml-2"> English (Fluent) </span>
+                      </p>
+
+                      <p class="idiom-title">
+                        <img
+                          src="@/assets/img/italy_flag.png"
+                          class="idiom-flag"
+                        />
+                        <span class="ml-2"> Italian (Communicable) </span>
                       </p>
 
                       <p class="idiom-title">
@@ -213,6 +243,16 @@
 
 html {
   background: #f4f4f4;
+}
+
+.quote {
+  font-style: italic;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.quote-author {
+  font-style: italic;
 }
 
 .idiom-title {
