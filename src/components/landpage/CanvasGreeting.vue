@@ -10,13 +10,13 @@
           </div>
           <div class="greeting-text white-color">
             <p>
-              I'm an avid self-taught
-              <span class="bold">Front-end Developer</span>
-              who loves to code and learn how things work.
+              I'm an AWS certified
+              <span class="bold">Full Stack Developer</span>
+              with experience in Vue, Node.js, SQL and Cloud Services.
             </p>
             <p>
-              This responsive landing page was created to showcase my portfolio
-              and coding skills.
+              I'm an avid learner, so I also know my way around Python and AI
+              solutions.
             </p>
           </div>
           <v-btn
