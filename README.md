@@ -8,23 +8,14 @@ WebGL Fluid Simulation:
 https://github.com/PavelDoGreat/WebGL-Fluid-Simulation
 
 ## Project setup
+Install and use Node 12.x
 ```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
+nvm install 12 && nvm use 12
 ```
 
-### Compiles and minifies for production
+Run the application
 ```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
+npm run serve
 ```
 
 ### Customize configuration

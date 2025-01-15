@@ -2,7 +2,7 @@
   <div id="canvas-greeting">
     <canvas ref="canvas" />
 
-    <v-col id="greeting" sm="10" md="8" lg="6" xl="4">
+    <v-col id="greeting" sm="10" md="8" lg="6" xl="5">
       <v-col>
         <v-col class="greeting-margin">
           <div>
@@ -12,11 +12,19 @@
             <p>
               I'm an AWS certified
               <span class="bold">Full Stack Developer</span>
-              with experience in Vue, Node.js, SQL and Cloud Services.
+              with experience in
+              <span class="bold">
+                Vue, Node.js, Python, SQL, NoSQL and Cloud Services </span
+              >. Lately I've been studying all sorts of
+              <span class="bold">AI tools</span> to expand my horizons on
+              product possibilities 🤖
             </p>
             <p>
-              I'm an avid learner, so I also know my way around Python and AI
-              solutions.
+              I love building things — designing, planning, and creating is what
+              makes me tick. It’s not just about the end result, I really enjoy
+              the process. That’s also why I’m always learning — exploring new
+              ideas, discovering what’s possible, and finding ways to build
+              faster and better 🛠️
             </p>
           </div>
           <v-btn
