@@ -2,7 +2,7 @@
   <section class="pb-8" id="contact">
     <v-container fluid>
       <v-row align="center" justify="center">
-        <v-col cols="10">
+        <v-col cols="10" class="text-center">
           <v-row justify="center">
             <v-col cols="12" sm="5" class="v-margin-bottom">
               <div class="terminal-title mt-5">/ssh contact_me</div>
@@ -47,5 +47,9 @@
 
 #whatsapp-btn {
   color: #ffffff !important;
+}
+
+.text-center {
+  text-align: center;
 }
 </style>
