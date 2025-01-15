@@ -2,7 +2,7 @@
   <div id="canvas-greeting">
     <canvas ref="canvas" />
 
-    <v-col id="greeting" sm="10" md="8" lg="6" xl="4">
+    <v-col id="greeting" sm="10" md="8" lg="6" xl="5">
       <v-col>
         <v-col class="greeting-margin">
           <div>
@@ -12,9 +12,12 @@
             <p>
               I'm an AWS certified
               <span class="bold">Full Stack Developer</span>
-              with experience in Vue, Node.js, Python, SQL, NoSQL and Cloud
-              Services. Lately I've been studying all sorts of AI tools to
-              expand my horizons on product possibilities 🤖
+              with experience in
+              <span class="bold">
+                Vue, Node.js, Python, SQL, NoSQL and Cloud Services </span
+              >. Lately I've been studying all sorts of
+              <span class="bold">AI tools</span> to expand my horizons on
+              product possibilities 🤖
             </p>
             <p>
               I love building things — designing, planning, and creating is what
