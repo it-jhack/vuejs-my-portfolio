@@ -250,6 +250,25 @@
                     Bounty Hunters on a fresh Debian Operational System.
                   </span>
                 </v-tooltip> -->
+
+                <v-col cols="12" sm="6" class="text-left">
+                  <div class="p-text white-color mt-5">
+                    <p>
+                      I'm the creator of&nbsp;<strong>EZ Flashcard</strong> - A
+                      flashcard app designed for studying while doing chores. It
+                      features a simple, intuitive interface, voice commands,
+                      and autoplay mode.
+                    </p>
+                    <v-btn
+                      rounded
+                      outlined
+                      href="https://ezflashcard.in"
+                      target="_blank"
+                    >
+                      Visit Ezflashcard.in
+                    </v-btn>
+                  </div>
+                </v-col>
               </div>
             </v-col>
 
